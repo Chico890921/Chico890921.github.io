@@ -1,0 +1,14 @@
+>【全文轉貼】[原文出處](https://www.inside.com.tw/article/22232-Larger-CyberBunker-investigation-yields-shutdown-of-DarkMarket?fbclid=IwAR1Pxqb2VXowVXhG_Wc_1eLi900_utjqa8OaSf19R0bDnD_7QGXt3Jw3y4Y)
+
+<br><br/>
+歐洲刑警組織（Europol）今天公開表示他們攻破了另一個大型暗網交易網站「DarkMarket」，其註冊用戶約有 50 萬人、賣家約 2400 位、交易紀錄超過 32 萬筆， 根據紀錄完成交易額有 4,650 枚比特幣與 12,800 枚門羅幣 （約 1.4 億歐元）。
+<br><br/>
+歐洲刑警組織這次也在德國-丹麥邊境涉嫌營運 DarkMarket 的澳洲籍男子，並一口氣關掉遍佈在烏克蘭、摩爾多瓦 20 多座伺服器。
+<br><br/>
+DarkMarket 跟其他暗網商城一樣充斥毒品交易、被盜的信用卡資料與各式各樣的駭客工具。但值得注意的是，DarkMarket 會被查破，則是跟有「暗黑 AWS」的伺服器託管商 Cyber​​Bunker 遭查緝展開的一系列後續調查有關。
+<br><br/>
+Cyber​​Bunker 相當具有傳奇色彩，它的伺服器機台事實上座落於冷戰期間北約為了抵禦核攻擊所蓋的地下掩體，佔地面積近六萬平方英尺；Cyber​​Bunker 將地產買下暗中架設了巨大的伺服器，並曾為海盜灣、維基解密與眾多暗網商場提供託管服務。不過 Cyber​​Bunker 本身在 2019 年 9 月遭到查破。
+<br><br/>
+對 Cyber​​Bunker 有興趣的讀者不妨參考德國公共廣播聯盟所製作的專題報導。
+<br><br/>
+若有關心相關訊息的讀者可能會發現，近年來歐洲破獲暗網非法交易的頻率越來越多，這是因為歐洲打擊網路犯罪中心（EC3）近年來還成立了專門的暗網小組，積極與全球執法部門合作以減少網路地下非法經濟發生。 

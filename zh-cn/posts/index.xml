@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - 涼涼</title>
+        <link>https://Chico890921.github.io/zh-cn/posts/</link>
+        <description>所有文章 | 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 15 Feb 2021 11:55:35 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/zh-cn/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>臺灣IPv6使用率已達50%，為我國萬物聯網打下堅實基礎</title>
+    <link>https://Chico890921.github.io/zh-cn/61/</link>
+    <pubDate>Mon, 15 Feb 2021 11:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/61/</guid>
+    <description><![CDATA[依據APNIC IPv6量測網站資料指出，2017年12月台灣IPv6比例僅0.38％，排名全球第67。]]></description>
+</item><item>
+    <title>彭博再報導：Supermicro間諜晶片真的存在，美國國防部、英特爾、FBI都知情</title>
+    <link>https://Chico890921.github.io/zh-cn/60/</link>
+    <pubDate>Mon, 15 Feb 2021 10:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/60/</guid>
+    <description><![CDATA[彭博宣稱FPGA晶片廠商Altera安全長在某份報告中，承認見過會連線回中國的Supermicro晶片]]></description>
+</item><item>
+    <title>資訊安全工程師 考題</title>
+    <link>https://Chico890921.github.io/zh-cn/59/</link>
+    <pubDate>Mon, 15 Feb 2021 09:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/59/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>五個駭客入侵手法介紹</title>
+    <link>https://Chico890921.github.io/zh-cn/58/</link>
+    <pubDate>Mon, 15 Feb 2021 08:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/58/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>聯發科晶片漏洞CVE-2020-0069允許駭客取得裝置根權限，影響數百萬Android裝置</title>
+    <link>https://Chico890921.github.io/zh-cn/57/</link>
+    <pubDate>Sun, 14 Feb 2021 18:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/57/</guid>
+    <description><![CDATA[3月Android安全公告釋出的一項修補，是聯發科在去年5月就完成修補的漏洞，目前已遭駭客開採，不過，即使聯發科早已修補漏洞，卻無法強迫所有的裝置商完成更新，目前XDA Developers僅確定Amazon已修補漏洞，依然有數十家裝置製造商沒有作為。]]></description>
+</item><item>
+    <title>第三方調查結果，Supermicro：我們的伺服器沒有被植入間諜晶片</title>
+    <link>https://Chico890921.github.io/zh-cn/56/</link>
+    <pubDate>Sun, 14 Feb 2021 17:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/56/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>在中國生產的電腦被安裝微型間諜晶片，尺寸比一粒米還小</title>
+    <link>https://Chico890921.github.io/zh-cn/55/</link>
+    <pubDate>Sun, 14 Feb 2021 16:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/55/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>最新研究報告指出 Clubhouse 以明文形式傳送使用者及聊天室的ID，而位於中國的 Agora 擁有加密金鑰可以解開加密的聲音檔案</title>
+    <link>https://Chico890921.github.io/zh-cn/54/</link>
+    <pubDate>Sun, 14 Feb 2021 15:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/54/</guid>
+    <description><![CDATA[斯坦福網路觀察站(SIO)發表報告指出，已經確認中國聲網公司（Agora Inc）替 Clubhouse 提供了後台基礎架構，因此中國聲網公司可以獲取用戶的原始音頻資料，因此也存在把它交給中國政府的潛在風險]]></description>
+</item><item>
+    <title>提升 DDoS 攻擊火力新大補丸！知名 Plex 串流媒體伺服器成為駭客最愛</title>
+    <link>https://Chico890921.github.io/zh-cn/53/</link>
+    <pubDate>Sat, 13 Feb 2021 14:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/53/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>巴西兩大國營電力公司遭勒贖攻擊</title>
+    <link>https://Chico890921.github.io/zh-cn/52/</link>
+    <pubDate>Fri, 12 Feb 2021 14:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/52/</guid>
+    <description><![CDATA[巴西兩家國營電力公司，近來同時遭到不明來源的勒贖攻擊，所幸核能發電廠和全國電網未受到攻擊影響。]]></description>
+</item></channel>
+</rss>

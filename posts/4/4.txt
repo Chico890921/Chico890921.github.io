@@ -1,0 +1,23 @@
+>【全文轉貼】[原文出處](https://www.twcert.org.tw/tw/cp-104-4288-7c0eb-1.html)
+
+<br><br/>
+**資安廠商發現駭侵團體 APT 27，自去年起改變其攻擊目標與手法，轉向以勒贖方式攻擊全球各大遊戲廠商。**
+<br><br/>
+資安廠商 Prefero 與 Security Joes 日前聯名發表研究報告，指出該公司旗下的資安研究團隊，發現駭侵團體 APT 27，自去年稍早開始大幅改變其攻擊目標與手法，轉向以勒贖方式攻擊全球各大遊戲廠商。
+<br></br>
+Profero and Security Joes 在報告中指出，該公司去年在調查一起資安勒贖攻擊事件時，在攻擊其核心伺服器的惡意程式碼中發現一些片斷，非常接近過去曾被趨勢科技發現的 DRBControl 惡意軟體；而 DRBControl 正是駭侵團體 APT 27 與 Winnti 慣用的駭侵工具。
+<br></br>
+之後該公司亦在多次針對全球遊戲廠商的勒贖攻擊事件中，發現類似的攻擊技巧與惡意程式碼；這些攻擊事件通常會使用內建於 Windows 系統中的 BitLocker 磁碟加密程式，這非常不尋常，因為傳統駭侵者多半會使用自製的駭侵攻擊工具，不會使用原本就內建在作業系統中的應用程式來發動攻擊。
+<br></br>
+以過去 APT 27 / Emissary Panda 駭侵團體的攻擊案例來說，多半都是利用各種駭侵攻擊進行監控或資料竊取，並非以勒贖取財為重點；Prefero and Security Joe 在報告中分析指出，該公司發現由 APT 27 發動的勒贖攻擊，其時間點正好在肺炎疫情剛開始快速蔓延，各地紛紛採取封城因應的當時，因此很有 APT 27 很有可能因為財務需求而轉向發動勒贖攻擊。
+<br></br>
+在 Profero and Security Joe 發表的報告中，也對該公司掌握的攻擊行動，提供了完整的攻擊手法分析。
+### 相關連結
+1. [APT27 Turns To Ransomware
+](https://shared-public-reports.s3-eu-west-1.amazonaws.com/APT27+turns+to+ransomware.pdf)
+<br></br>
+2. [China's APT hackers move to ransomware attacks
+](https://www.bleepingcomputer.com/news/security/chinas-apt-hackers-move-to-ransomware-attacks/)
+<br></br>
+3. [Chinese espionage group APT27 moves into ransomware](https://www.scmagazine.com/home/security-news/ransomware/chinese-espionage-group-apt27-moves-into-ransomware/)
+<br><br/>
