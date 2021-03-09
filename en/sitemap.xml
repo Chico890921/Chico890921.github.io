@@ -2,73 +2,16 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://Chico890921.github.io/theme-documentation-basics/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://Chico890921.github.io/categories/artical/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/theme-documentation-basics/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/theme-documentation-basics/"
+                        href="https://Chico890921.github.io/zh-cn/categories/artical/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="en"
-                    href="https://Chico890921.github.io/theme-documentation-basics/"
+                    href="https://Chico890921.github.io/categories/artical/"
                     /></url><url>
-            <loc>https://Chico890921.github.io/theme-documentation-content/</loc><lastmod>2020-03-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/theme-documentation-content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/theme-documentation-content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/theme-documentation-content/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/theme-documentation-built-in-shortcodes/</loc><lastmod>2020-03-04T16:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/theme-documentation-built-in-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/theme-documentation-built-in-shortcodes/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/theme-documentation-extended-shortcodes/</loc><lastmod>2020-03-03T16:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/theme-documentation-extended-shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/theme-documentation-extended-shortcodes/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/basic-markdown-syntax/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/basic-markdown-syntax/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/basic-markdown-syntax/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/basic-markdown-syntax/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/emoji-support/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/emoji-support/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/emoji-support/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/categories/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://Chico890921.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://Chico890921.github.io/zh-cn/categories/"
@@ -81,20 +24,7 @@
                     hreflang="en"
                     href="https://Chico890921.github.io/categories/"
                     /></url><url>
-            <loc>https://Chico890921.github.io/tags/configuration/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/tags/configuration/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/configuration/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/configuration/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/categories/documentation/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://Chico890921.github.io/categories/documentation/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://Chico890921.github.io/zh-cn/categories/documentation/"
@@ -107,33 +37,7 @@
                     hreflang="en"
                     href="https://Chico890921.github.io/categories/documentation/"
                     /></url><url>
-            <loc>https://Chico890921.github.io/tags/installation/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/tags/installation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/installation/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/installation/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/posts/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/posts/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/posts/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/posts/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/tags/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://Chico890921.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://Chico890921.github.io/zh-cn/tags/"
@@ -146,7 +50,7 @@
                     hreflang="en"
                     href="https://Chico890921.github.io/tags/"
                     /></url><url>
-            <loc>https://Chico890921.github.io/</loc><lastmod>2020-03-06T21:29:01&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://Chico890921.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"
                         href="https://Chico890921.github.io/zh-cn/"
@@ -158,96 +62,4 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://Chico890921.github.io/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/tags/content/</loc><lastmod>2020-03-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/tags/content/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/content/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/tags/markdown/</loc><lastmod>2020-03-05T15:58:26&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/tags/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/markdown/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/tags/shortcodes/</loc><lastmod>2020-03-04T16:29:41&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/shortcodes/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/shortcodes/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/tags/html/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/tags/html/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/html/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/html/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/categories/markdown/</loc><lastmod>2020-01-01T16:45:40&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/categories/markdown/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/categories/markdown/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/categories/markdown/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/tags/emoji/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/emoji/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/tags/emoji/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/about/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/about/"
-                    /></url><url>
-            <loc>https://Chico890921.github.io/categories/artical/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="zh-cn"
-                        href="https://Chico890921.github.io/zh-cn/categories/artical/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="en"
-                    href="https://Chico890921.github.io/categories/artical/"
                     /></url></urlset>
