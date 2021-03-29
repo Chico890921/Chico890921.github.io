@@ -1,0 +1,22 @@
+>【全文轉貼】[原文出處](https://www.twcert.org.tw/tw/cp-104-4293-0ca37-1.html)
+
+<br><br/>
+**美國行動電信業者 T-Mobile 於日前發表資安通報，指出該公司發現其顧客資料庫有遭不法入侵的跡象，但重要顧客個資並未外洩。**
+<br><br/>
+美國行動電信業者 T-Mobile 於日前發表資安通報，指出該公司內部的資安團隊，最近發現其顧客資料庫有遭駭侵者未經授權入侵存取的跡象，但該公司強調，重要的顧客個人資訊並未外洩。
+<br><br/>
+T-Mobile 在資安通報中說，在該公司內部團隊與外部資安專家的協助下，正在調查該起事故；目前的調查結果指出，駭侵者可能已經取的資訊，包括電話號碼、單一帳號名下申請的各支電話號碼、以及部分與電話通聯相關的資訊，T-Mobile 說這些資訊是在其無線通訊服務營運進行時收集的。
+<br><br/>
+T-Mobile 公司也在通報中強調，這批外洩的資料中，不包括帳號中登記的用戶姓名、實體郵件寄送地址、Email 地址、財務資訊、信用卡卡號、到期日等資訊，也不包括用戶的社會安全碼（Social Security Number）、稅務編號、密碼、SIM 卡密碼等等較敏感的個資。
+<br><br/>
+T-Mobile 說，受到此次資料外洩事故影響的用戶，約佔全體用戶的 0.2%；以 T-Mobile 的總體用戶註冊量來計算，受影響人數約在 200,000 人上下。
+<br><br/>
+這次資料外洩相較於過去 T-Mobile 曾發生過的資料外洩事件，以目前掌握的情資來說，由於受害人數較少，資料欄位也比較局限，影響與嚴重程度不若過去幾次事件。T-Mobile 曾分別在 2018 年 8 月、2019 年 11 月、2020 年 3 月發生過三次資料外洩事件，情節均遠較此次嚴重得多；包括員工與用戶的各種機敏個資都遭駭侵者竊取，受害用戶人數也達 2,000,000 人以上。
+<br></br>
+
+### 相關連結
+1. [T-Mobile NOTICE OF SECURITY INCIDENT.](https://www.t-mobile.com/responsibility/consumer-info/security-incident)
+<br></br>
+2. [T-Mobile discloses its fourth data breach in three years](https://www.zdnet.com/article/t-mobile-discloses-its-fourth-data-breach-in-three-years/)
+<br></br>
+3. [T-Mobile says hackers accessed some customer call records in data breach](https://techcrunch.com/2021/01/03/t-mobile-call-records-data-breach/)

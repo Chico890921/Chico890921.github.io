@@ -1,0 +1,29 @@
+>【全文轉貼】[原文出處](https://www.twcert.org.tw/tw/cp-104-4288-7c0eb-1.html)
+
+<br><br/>
+**多款國內網通設備商生產之防火牆、VPN 闡道器等裝置遭發現內含硬式編碼認證漏洞。**
+<br><br/>
+國內網通設備商生產的多款網通產品，如硬體防火牆、VPN 闡道器、網路存取點控制器等裝置，遭資安廠商發現內含硬式編碼認證漏洞，這個帳號主要用途是透過 FTP 向連接的AP提供自動韌體更新。
+<br><br/>
+發現這個嚴重問題的，是荷蘭資安廠商 Eye Control 旗下的資安研究人員；該單位日前發表研究報告，指出研究人員在以 root 登入自己使用的 USG40 整合安全闡道器（Unified Secuirity Gateway）時，發現在當時最新版的韌體 4.60 patch 0 版本中，有硬式編碼的一個管理者權限帳號，密碼以明文寫在程式碼之中。
+<br><br/>
+該研究員繼續研究，還發現這組管理者登入資訊，同時可以用來登入 USG40 的 Web 和 SSH 管理界面；而這組登入資訊並未出現在較舊的韌體版本中。
+<br><br/>
+這個漏洞的 CVE 編號為 CVE-2020-29583，其 CVSS 危險程度評分高達 7.3 分，屬「高危險」等級；原廠已於官方網站發布新版韌體，修復這個漏洞。請採用下列網通產品的用戶，立即下載並更新至最新版本，或暫時避免使用，以免遭到駭侵者透過該漏洞發動攻擊。
+<br><br/>
+* CVE編號：CVE-2020-29583
+<br><br/>
+* 影響產品(版本)：
+  * 防火牆：ATP、USG、USG FLEX、VPN（韌體版本 ZLD v4.60）
+  * 無線網路控制器：NXC2500、NXC5500 (韌體版本 V6.0- V6.10)
+<br><br/>
+* 解決方案：防火牆系列升級至韌體版本 ZLD V4.60 Patch 1；無線網路控制器於 2021 年 1 月 8 日升級至韌體版本 V6.10 Patch1
+<br></br>
+### 相關連結
+1. [CVE-2020-29583](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29583)
+<br></br>
+2. [Undocumented user account in Zyxel products (CVE-2020-29583)](https://eye.security/en/blog/undocumented-user-account-in-zyxel-products-cve-2020-29583)
+<br></br>
+3. [Zyxel security advisory for hardcoded credential vulnerability](https://www.zyxel.com/support/CVE-2020-29583.shtml)
+<br><br/>
+4. [兆勤科技發布硬式編碼認證漏洞資安公告](https://www.zyxel.com/tw/zh/support/CVE-2020-29583.shtml)
