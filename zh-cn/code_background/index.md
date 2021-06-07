@@ -10,6 +10,10 @@
 
 ![](https://i.imgur.com/qIUVV9Z.jpg)
 <br><br/>
+
+&nbsp;
+
+改成 #E5E5E5 這個顏色
 ```css
 <style>
 .markdown-body pre {
@@ -19,6 +23,10 @@
 ```
 ![](https://i.imgur.com/zehOciL.jpg)
 <br><br/>
+
+&nbsp;
+
+改成 pink
 ```css
 <style>
 .markdown-body pre {
