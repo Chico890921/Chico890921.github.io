@@ -3,8 +3,9 @@
 <!--more-->
 <!--code_background-->
 <br><br/>
-
+{{<typeit>}}
 在 HackMD 寫筆記，想要改變程式碼背景顏色，插入以下片段即可
+{{</typeit>}}
 
 原來的背景色
 

@@ -41,6 +41,7 @@
 ### 在 Type 中找到 fetch ，按右鍵，Open in new tab
 ### (可能有多 fetch，隨便一個都行)
 ![](https://i.imgur.com/4M2ghkX.jpg)
+
 ## 成功下載 :)
 ps.大部分點選 open in new tab 會自動幫你下載，沒有的話，會跳出一個新頁面，右上有下載鍵
 
