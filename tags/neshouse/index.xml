@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>NesHouse - Tag - 涼涼</title>
+        <link>https://Chico890921.github.io/tags/neshouse/</link>
+        <description>NesHouse - Tag - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 10 Feb 2021 16:55:35 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/neshouse/" rel="self" type="application/rss+xml" /><item>
+    <title>中國工程師自行開發了網頁版 Clubhouse 並命名為「NESHouse」</title>
+    <link>https://Chico890921.github.io/50/</link>
+    <pubDate>Wed, 10 Feb 2021 16:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/50/</guid>
+    <description><![CDATA[NesHouse 是一個基於聲網 Agora、LeanCloud 服務，使用 Alpine.js 、Bulma Css、NES.css 構建的前端項目，顯示 ClubHouse 的獨家技術不多，日後將會有大量相似的應用程式推出]]></description>
+</item></channel>
+</rss>

@@ -1,7 +1,21 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>artical - Category - 涼涼</title>
+        <title>文章 - Category - 涼涼</title>
         <link>https://Chico890921.github.io/categories/artical/</link>
-        <description>artical - Category - 涼涼</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><atom:link href="https://Chico890921.github.io/categories/artical/" rel="self" type="application/rss+xml" /></channel>
+        <description>文章 - Category - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 10 Mar 2021 00:55:35 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/categories/artical/" rel="self" type="application/rss+xml" /><item>
+    <title>HackMD 更改程式碼背景顏色</title>
+    <link>https://Chico890921.github.io/code_background/</link>
+    <pubDate>Wed, 10 Mar 2021 00:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/code_background/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>從 Tronclass 上 下載未開放的文件</title>
+    <link>https://Chico890921.github.io/tronclass_download/</link>
+    <pubDate>Mon, 11 Jan 2021 14:54:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/tronclass_download/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
