@@ -7,10 +7,6 @@
                         hreflang="en"
                         href="https://Chico890921.github.io/categories/"
                         /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/categories/"
-                        /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://Chico890921.github.io/zh-cn/categories/"
@@ -20,10 +16,6 @@
                         rel="alternate"
                         hreflang="en"
                         href="https://Chico890921.github.io/tags/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
@@ -36,10 +28,6 @@
                         hreflang="en"
                         href="https://Chico890921.github.io/"
                         /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/"
-                        /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://Chico890921.github.io/zh-cn/"
@@ -48,10 +36,6 @@
                         rel="alternate"
                         hreflang="en"
                         href="https://Chico890921.github.io/categories/documentation/"
-                        /><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/categories/documentation/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
@@ -611,14 +595,6 @@
             <loc>https://Chico890921.github.io/zh-cn/2/</loc><lastmod>2021-01-11T00:32:35&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Chico890921.github.io/zh-cn/1/</loc><lastmod>2021-01-08T20:32:00&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Chico890921.github.io/zh-cn/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://Chico890921.github.io/zh-cn/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="fr"
-                        href="https://Chico890921.github.io/fr/tags/content/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://Chico890921.github.io/zh-cn/tags/content/"
-                    /></url><url>
+            <loc>https://Chico890921.github.io/zh-cn/tags/content/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Chico890921.github.io/zh-cn/tags/installation/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://Chico890921.github.io/zh-cn/tags/configuration/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

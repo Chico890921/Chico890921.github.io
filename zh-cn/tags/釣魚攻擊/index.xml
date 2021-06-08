@@ -1,0 +1,56 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>釣魚攻擊 - Tag - 涼涼</title>
+        <link>https://Chico890921.github.io/zh-cn/tags/%E9%87%A3%E9%AD%9A%E6%94%BB%E6%93%8A/</link>
+        <description>釣魚攻擊 - Tag - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 24 Mar 2021 23:58:05 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/zh-cn/tags/%E9%87%A3%E9%AD%9A%E6%94%BB%E6%93%8A/" rel="self" type="application/rss+xml" /><item>
+    <title>資安廠商指出，釣魚攻擊者發展出多種手法，使二階段驗證保護失去效力</title>
+    <link>https://Chico890921.github.io/zh-cn/107/</link>
+    <pubDate>Wed, 24 Mar 2021 23:58:05 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/107/</guid>
+    <description><![CDATA[資安廠商發表研究報告指出，駭侵團體已發展出多種手法，可以對應二階段驗證，使其失去保護能力。]]></description>
+</item><item>
+    <title>台新網銀詐騙案：OTP認證簡訊騙走40萬，受害者詳述事發經過</title>
+    <link>https://Chico890921.github.io/zh-cn/65/</link>
+    <pubDate>Thu, 18 Feb 2021 14:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/65/</guid>
+    <description><![CDATA[簡訊詐騙]]></description>
+</item><item>
+    <title>2020 年資安調查：勒贖攻擊與釣魚攻擊大幅增加</title>
+    <link>https://Chico890921.github.io/zh-cn/51/</link>
+    <pubDate>Fri, 12 Feb 2021 13:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/51/</guid>
+    <description><![CDATA[資安廠商發表 2020 年度資安攻擊分析報告，指出由於疫情與在家工作，導致各種釣魚攻擊與勒贖攻擊，數量較 2019 年大幅增加。]]></description>
+</item><item>
+    <title>【網銀簡訊釣魚警訊】詐騙集團假冒國泰世華/台新銀行通知「您網銀帳戶異常,即將凍結」當心存款人間蒸發!</title>
+    <link>https://Chico890921.github.io/zh-cn/34/</link>
+    <pubDate>Tue, 02 Feb 2021 15:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/34/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>駭侵者不慎將自企業竊得的登入資訊，在網路上曝光</title>
+    <link>https://Chico890921.github.io/zh-cn/29/</link>
+    <pubDate>Fri, 29 Jan 2021 13:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/29/</guid>
+    <description><![CDATA[資安廠商發現某駭侵團體於去年竊得的大批各企業內網登入資訊，因操作不慎而被公開在網路上，任何人皆可搜尋並取得相關資訊。]]></description>
+</item><item>
+    <title>駭客以 Google 表單，針對企業員工發動 BEC 攻擊</title>
+    <link>https://Chico890921.github.io/zh-cn/28/</link>
+    <pubDate>Fri, 29 Jan 2021 12:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/28/</guid>
+    <description><![CDATA[資安廠商日前發現有駭侵團體透過 Google 表單，跳過各種 Email 系統的有害內容過濾機制，鎖定企業員工發動 BEC 攻擊。]]></description>
+</item><item>
+    <title>駭客鎖定臺灣公部門、研究機構、大學發動網釣攻擊，並在網頁郵件系統注入惡意JavaScript竊密</title>
+    <link>https://Chico890921.github.io/zh-cn/16/</link>
+    <pubDate>Sun, 17 Jan 2021 13:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/16/</guid>
+    <description><![CDATA[趨勢科技近日揭露一起自去年2019年5月開始，新的駭客組織Earth Wendigo發動的網路釣魚攻擊，這起攻擊行動鎖定臺灣的政府組織、研究機構，以及大學下手。而為了能讓攻擊範圍更廣，駭客進一步在郵件網頁系統上注入惡意JavaScript。]]></description>
+</item></channel>
+</rss>

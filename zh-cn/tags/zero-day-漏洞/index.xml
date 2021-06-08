@@ -1,0 +1,77 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>zero day 漏洞 - Tag - 涼涼</title>
+        <link>https://Chico890921.github.io/zh-cn/tags/zero-day-%E6%BC%8F%E6%B4%9E/</link>
+        <description>zero day 漏洞 - Tag - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 03 Jun 2021 03:00:15 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/zh-cn/tags/zero-day-%E6%BC%8F%E6%B4%9E/" rel="self" type="application/rss+xml" /><item>
+    <title>木馬程式開採MacOS零時差漏洞暗中錄製螢幕</title>
+    <link>https://Chico890921.github.io/zh-cn/344/</link>
+    <pubDate>Thu, 03 Jun 2021 03:00:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/344/</guid>
+    <description><![CDATA[被XCSSET木馬濫用的零時差漏洞CVE-2021-30713，能讓駭客繞過蘋果防護機制，對Mac電腦進行側錄、監控或竊取信用卡帳號及密碼]]></description>
+</item><item>
+    <title>微軟五月資安修復包，一次修復 55 個資安漏洞，以及 3 個 0-day 漏洞</title>
+    <link>https://Chico890921.github.io/zh-cn/302/</link>
+    <pubDate>Wed, 26 May 2021 07:00:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/302/</guid>
+    <description><![CDATA[微軟於日前推出 2021 年 5 月「Patch Tuesday」資安修復包，一口氣修復 55 個資安漏洞，其中含有 3 個 0-day 漏洞。微軟各種軟體系統用戶，應立即套用更新。]]></description>
+</item><item>
+    <title>Apple 修復兩個恐已遭用於攻擊的 0-day 漏洞</title>
+    <link>https://Chico890921.github.io/zh-cn/214/</link>
+    <pubDate>Tue, 04 May 2021 07:00:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/214/</guid>
+    <description><![CDATA[Apple 於日前緊急推出 iOS 14.5.1、 macOS Big Sur 等作業系統更新，修復兩個可能讓駭侵者遠端執行任意程式碼的嚴重 0-day 漏洞，iOS 與 Mac、Apple Watch 裝置用戶應立即更新。]]></description>
+</item><item>
+    <title>Apple 修復 macOS 一個可跳過系統安全檢查，且已遭大規模濫用的 0-day 漏洞</title>
+    <link>https://Chico890921.github.io/zh-cn/212/</link>
+    <pubDate>Tue, 04 May 2021 05:00:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/212/</guid>
+    <description><![CDATA[資安專家日前發現 macOS 一個嚴重 0-day 漏洞，可讓駭侵者跳過多重系統資安檢測程序；該漏洞已遭大規模濫用，用戶應立即將 Mac 電腦升級至最新版本。 ]]></description>
+</item><item>
+    <title>Google Chrome 修復嚴重 0-day 資安漏洞，請用戶立即更新</title>
+    <link>https://Chico890921.github.io/zh-cn/98/</link>
+    <pubDate>Wed, 24 Mar 2021 19:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/98/</guid>
+    <description><![CDATA[Google 於日前推出 Chrome 瀏覽器更新，修復多個資安漏洞，其中包括一個嚴重漏洞，可能導致駭侵者遠端執行任意程式碼，用戶應立即更新至最新版本。]]></description>
+</item><item>
+    <title>美國資安單位針對微軟 Exchange 嚴重漏洞發布緊急修補命令</title>
+    <link>https://Chico890921.github.io/zh-cn/95/</link>
+    <pubDate>Wed, 24 Mar 2021 16:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/95/</guid>
+    <description><![CDATA[美國主管資安事務單位，日前針對微軟 Exchange 的多個嚴重 0-day 漏洞發布緊急修補命令，要求聯邦政府所屬單位，立即針對在其組織内運作的微軟 Exchange 系統進行資安修補。]]></description>
+</item><item>
+    <title>SonicWall SMA 100 系列 0-day 漏洞，已遭駭侵者大規模濫用</title>
+    <link>https://Chico890921.github.io/zh-cn/43/</link>
+    <pubDate>Sun, 07 Feb 2021 10:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/43/</guid>
+    <description><![CDATA[SonicWall 生產的 SMA 100 系列網通產品，內含的一個 0-day 漏洞，恐已遭駭侵者大規模用以發動攻擊。]]></description>
+</item><item>
+    <title>蘋果推出 iOS 14.4，一次修復三個 0-day 嚴重資安漏洞</title>
+    <link>https://Chico890921.github.io/zh-cn/30/</link>
+    <pubDate>Fri, 29 Jan 2021 14:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/30/</guid>
+    <description><![CDATA[Apple 日前推出最新版 iOS 14.4，同時修復三個 0-day 漏洞，其中有兩個可使駭侵者遠端執行任意程式碼； iOS 裝置用戶應立即更新到最新版本。]]></description>
+</item><item>
+    <title>微軟修補 Microsoft Defender 防毒防駭軟體內的 zero day 漏洞</title>
+    <link>https://Chico890921.github.io/zh-cn/21/</link>
+    <pubDate>Tue, 19 Jan 2021 12:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/21/</guid>
+    <description><![CDATA[微軟緊急修復存於 Microsoft Defender 防毒防駭軟體中的嚴重 zero day 漏洞，該漏洞可能導致駭侵者遠端執行任意程式碼。]]></description>
+</item><item>
+    <title>Google揭露串連Chrome/Windows零時差漏洞、Android已知漏洞的攻擊行動</title>
+    <link>https://Chico890921.github.io/zh-cn/9/</link>
+    <pubDate>Fri, 15 Jan 2021 09:35:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/9/</guid>
+    <description><![CDATA[<!--9-->]]></description>
+</item></channel>
+</rss>

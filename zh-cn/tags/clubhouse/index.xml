@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Clubhouse - Tag - 涼涼</title>
+        <link>https://Chico890921.github.io/zh-cn/tags/clubhouse/</link>
+        <description>Clubhouse - Tag - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Mar 2021 02:55:35 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/zh-cn/tags/clubhouse/" rel="self" type="application/rss+xml" /><item>
+    <title>中共封鎖Clubhouse並武器化之可能</title>
+    <link>https://Chico890921.github.io/zh-cn/79/</link>
+    <pubDate>Sun, 07 Mar 2021 02:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/79/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>最新研究報告指出 Clubhouse 以明文形式傳送使用者及聊天室的ID，而位於中國的 Agora 擁有加密金鑰可以解開加密的聲音檔案</title>
+    <link>https://Chico890921.github.io/zh-cn/54/</link>
+    <pubDate>Sun, 14 Feb 2021 15:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/54/</guid>
+    <description><![CDATA[斯坦福網路觀察站(SIO)發表報告指出，已經確認中國聲網公司（Agora Inc）替 Clubhouse 提供了後台基礎架構，因此中國聲網公司可以獲取用戶的原始音頻資料，因此也存在把它交給中國政府的潛在風險]]></description>
+</item><item>
+    <title>Clubhouse’s Future Depends On Data - How To Build A TikTok Like Algorithm</title>
+    <link>https://Chico890921.github.io/zh-cn/49/</link>
+    <pubDate>Wed, 10 Feb 2021 15:55:35 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/zh-cn/49/</guid>
+    <description><![CDATA[Clubhouse 的未來取決於數據-如何構建類似TikTok的算法]]></description>
+</item></channel>
+</rss>
