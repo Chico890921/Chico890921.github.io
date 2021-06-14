@@ -28,3 +28,41 @@ word="Hugo-LoveIt主題美化參考"
 primary-color="blue"
 border-animation="led" >}}
 
+<br></br>
+
+##
+
+{{< friend
+name="Akilarの糖果屋"
+url="https://akilar.top/"
+logo="https://akilar.top/img/author3.webp"
+word=""
+primary-color="blue"
+border-animation="led" >}}
+
+<br></br>
+
+## 小遊戲
+{{< friend
+name="HFIProgramming / mikutap"
+url="https://github.com/HFIProgramming/mikutap/"
+logo=""
+word="mikutap"
+primary-color="blue"
+border-animation="led" >}}
+
+{{< friend
+name="zhbink / CatchThatCat"
+url="https://github.com/zhbink/CatchThatCat"
+logo=""
+word="catch the cat"
+primary-color="blue"
+border-animation="led" >}}
+
+{{< friend
+name="rex-wdd / 3DCube"
+url="https://github.com/rex-wdd/3DCube"
+logo=""
+word="魔方"
+primary-color="blue"
+border-animation="led" >}}
