@@ -24,7 +24,15 @@ border-animation="borderFlash" >}}
 name="雨临Lewis的博客"
 url="https://lewky.cn/"
 logo="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/avatar.jpg"
-word="Hugo-LoveIt主題美化參考"
+word="Hugo-LoveIt主題優化參考"
+primary-color="blue"
+border-animation="led" >}}
+
+{{< friend
+name="朤尧的博客"
+url="https://www.cnblogs.com/langyao/"
+logo="https://www.xiaodejiyi.com/images/avatar.jpg"
+word="Hugo-LoveIt主題優化參考"
 primary-color="blue"
 border-animation="led" >}}
 
@@ -46,7 +54,7 @@ border-animation="led" >}}
 {{< friend
 name="HFIProgramming / mikutap"
 url="https://github.com/HFIProgramming/mikutap/"
-logo=""
+logo="https://avatars.githubusercontent.com/u/17120571?v=4"
 word="mikutap"
 primary-color="blue"
 border-animation="led" >}}
@@ -54,7 +62,7 @@ border-animation="led" >}}
 {{< friend
 name="zhbink / CatchThatCat"
 url="https://github.com/zhbink/CatchThatCat"
-logo=""
+logo="https://avatars.githubusercontent.com/u/42542247?v=4"
 word="catch the cat"
 primary-color="blue"
 border-animation="led" >}}
@@ -62,7 +70,10 @@ border-animation="led" >}}
 {{< friend
 name="rex-wdd / 3DCube"
 url="https://github.com/rex-wdd/3DCube"
-logo=""
+logo="https://avatars.githubusercontent.com/u/52366189?v=4"
 word="魔方"
 primary-color="blue"
 border-animation="led" >}}
+
+{{< covid_cat >}}
+

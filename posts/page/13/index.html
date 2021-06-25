@@ -20,24 +20,195 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Chico890921.github.io/posts/" /><link rel="alternate" href="/posts/index.xml" type="application/rss+xml" title="涼涼">
     <link rel="feed" href="/posts/index.xml" type="application/rss+xml" title="涼涼"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"></head>
-    <body header-desktop="auto" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    <body header-desktop="fixed" header-mobile="fixed"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+
+
+        
+        
+
+        <div id="mask"></div><script>
+                
+                var BACKGROUND_COLOR = "transparent";   
+                var POINT_NUM = 100;                        
+                var POINT_COLOR = "#79ADDC";  
+                var LINE_LENGTH = 10000;                    
+                
+                
+                var cvs = document.createElement("canvas");
+                cvs.width = window.innerWidth;
+                cvs.height = window.innerHeight;
+                cvs.style.cssText = "\
+                    position:fixed;\
+                    top:0px;\
+                    left:0px;\
+                    z-index:-1;\
+                    opacity:1.0;\
+                    ";
+                document.body.appendChild(cvs);
+                
+                var ctx = cvs.getContext("2d");
+                
+                var startTime = new Date().getTime();
+                
+                
+                function randomInt(min, max) {
+                    return Math.floor((max - min + 1) * Math.random() + min);
+                }
+                
+                function randomFloat(min, max) {
+                    return (max - min) * Math.random() + min;
+                }
+                
+                
+                function Point() {
+                    this.x = randomFloat(0, cvs.width);
+                    this.y = randomFloat(0, cvs.height);
+                
+                    var speed = randomFloat(0.3, 1.4);
+                    var angle = randomFloat(0, 2 * Math.PI);
+                
+                    this.dx = Math.sin(angle) * speed;
+                    this.dy = Math.cos(angle) * speed;
+                
+                    this.r = 1.2;
+                
+                    this.color = POINT_COLOR;
+                }
+                
+                Point.prototype.move = function () {
+                    this.x += this.dx;
+                    if (this.x < 0) {
+                        this.x = 0;
+                        this.dx = -this.dx;
+                    } else if (this.x > cvs.width) {
+                        this.x = cvs.width;
+                        this.dx = -this.dx;
+                    }
+                    this.y += this.dy;
+                    if (this.y < 0) {
+                        this.y = 0;
+                        this.dy = -this.dy;
+                    } else if (this.y > cvs.height) {
+                        this.y = cvs.height;
+                        this.dy = -this.dy;
+                    }
+                }
+                
+                Point.prototype.draw = function () {
+                    ctx.fillStyle = this.color;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+                    ctx.closePath();
+                    ctx.fill();
+                }
+                
+                var points = [];
+                
+                function initPoints(num) {
+                    for (var i = 0; i < num; ++i) {
+                        points.push(new Point());
+                    }
+                }
+                
+                var p0 = new Point(); 
+                p0.dx = p0.dy = 0;
+                var degree = 2.5;
+                document.onmousemove = function (ev) {
+                    p0.x = ev.clientX;
+                    p0.y = ev.clientY;
+                }
+                document.onmousedown = function (ev) {
+                    degree = 5.0;
+                    p0.x = ev.clientX;
+                    p0.y = ev.clientY;
+                }
+                document.onmouseup = function (ev) {
+                    degree = 2.5;
+                    p0.x = ev.clientX;
+                    p0.y = ev.clientY;
+                }
+                window.onmouseout = function () {
+                    p0.x = null;
+                    p0.y = null;
+                }
+                
+                function drawLine(p1, p2, deg) {
+                    var dx = p1.x - p2.x;
+                    var dy = p1.y - p2.y;
+                    var dis2 = dx * dx + dy * dy;
+                    if (dis2 < 2 * LINE_LENGTH) {
+                        if (dis2 > LINE_LENGTH) {
+                            if (p1 === p0) {
+                                p2.x += dx * 0.03;
+                                p2.y += dy * 0.03;
+                            } else return;
+                        }
+                        var t = (1.05 - dis2 / LINE_LENGTH) * 0.2 * deg;
+                        ctx.strokeStyle = "rgba(121,173,220," + t + ")";
+                        ctx.beginPath();
+                        ctx.lineWidth = 1.5;
+                        ctx.moveTo(p1.x, p1.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.closePath();
+                        ctx.stroke();
+                    }
+                    return;
+                }
+                
+                
+                function drawFrame() {
+                    cvs.width = window.innerWidth;
+                    cvs.height = window.innerHeight;
+                    ctx.fillStyle = BACKGROUND_COLOR;
+                    ctx.fillRect(0, 0, cvs.width, cvs.height);
+                
+                    var arr = (p0.x == null ? points : [p0].concat(points));
+                    for (var i = 0; i < arr.length; ++i) {
+                        for (var j = i + 1; j < arr.length; ++j) {
+                            drawLine(arr[i], arr[j], 1.0);
+                        }
+                        arr[i].draw();
+                        arr[i].move();
+                    }
+                
+                    window.requestAnimationFrame(drawFrame);
+                }
+    
+                initPoints(POINT_NUM);
+                drawFrame();
+            </script>
+        
+
+
+        <div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
+
+        
+        
+
+        
+        <script src="https://cdn.jsdelivr.net/gh/Chico890921/live2d-widget@0.10.2/autoload.js"></script>
+
+
         <div class="header-title">
             <a href="/" title="涼涼"><span class="header-title-pre"><i class='fas fa-hat-cowboy-side fa-fw'></i></span><span id="id-1" class="typeit"></span></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item active" href="/posts/"><i class='fas fa-fw fa-archive'></i> Posts 
-                        </a><a class="menu-item" href="/categories/"><i class='fas fa-fw fa-th'></i> Categories 
-                        </a><a class="menu-item" href="/tags/"><i class='fas fa-fw fa-tags'></i> Tags 
-                        </a>
+            <div class="menu-inner">
+                        <div class="dropdown">
+                            <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> Posts 
+                            </a>
+                            <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> Categories </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tags'></i> Tags </a></div>
+                        </div>
+                    
                         <div class="dropdown">
                             <a href="javascript:void(0);" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> Funny 
                             </a>
-                            <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" target="_blank" rel="noopener"><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" target="_blank" rel="noopener"><i class='fas fa-cube'></i> 旋轉魔方 </a></div>
+                            <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" ><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" ><i class='fas fa-cube'></i> 旋轉魔方 </a><a href="/funny/hamster/" title="" ><i class='fas fa-paw'></i> 倉鼠模擬 </a></div>
                         </div>
                     <a class="menu-item" href="/friends/"><i class='fas fa-dungeon'></i> 傳送門 
+                        </a><a class="menu-item" href="/secreats/"><i class='fab fa-expeditedssl'></i>  
                         </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
@@ -81,16 +252,20 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item active" href="/posts/"><i class='fas fa-fw fa-archive'></i> Posts 
-                    </a><a class="menu-item" href="/categories/"><i class='fas fa-fw fa-th'></i> Categories 
-                    </a><a class="menu-item" href="/tags/"><i class='fas fa-fw fa-tags'></i> Tags 
-                    </a>
+                </div>
+                    <div class="dropdown">
+                        <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> Posts 
+                        </a>
+                        <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> Categories </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tags'></i> Tags </a></div>
+                    </div>
+                
                     <div class="dropdown">
                         <a href="javascript:void(0);" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> Funny 
                         </a>
-                        <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" target="_blank" rel="noopener"><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" target="_blank" rel="noopener"><i class='fas fa-cube'></i> 旋轉魔方 </a></div>
+                        <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" ><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" ><i class='fas fa-cube'></i> 旋轉魔方 </a><a href="/funny/hamster/" title="" ><i class='fas fa-paw'></i> 倉鼠模擬 </a></div>
                     </div>
                 <a class="menu-item" href="/friends/"><i class='fas fa-dungeon'></i> 傳送門 
+                    </a><a class="menu-item" href="/secreats/"><i class='fab fa-expeditedssl'></i>  
                     </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
@@ -102,69 +277,69 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div>
-<main class="main">
+    <main class="main">
                 <div class="container"><div class="page archive"><h2 class="single-title animated pulse faster">All Posts<sup>365</sup>
         </h2><h3 class="group-title">2021-04 <sup>5</sup></h3><article class="archive-item">
-                        <a href="/123/" class="archive-item-link">資安廠商指出，釣魚攻擊者發展出多種手法，使二階段驗證保護失去效力</a>
-                        <span class="archive-item-date">04-03</span>
-                    </article><article class="archive-item">
-                        <a href="/122/" class="archive-item-link">工業4.0世代的第三次安全革命 (上)(下)</a>
-                        <span class="archive-item-date">04-03</span>
-                    </article><article class="archive-item">
-                        <a href="/121/" class="archive-item-link">數位貨幣爭霸戰 台灣準備好了嗎？</a>
-                        <span class="archive-item-date">04-02</span>
-                    </article><article class="archive-item">
-                        <a href="/120/" class="archive-item-link">IEC 62443</a>
-                        <span class="archive-item-date">04-02</span>
-                    </article><article class="archive-item">
-                        <a href="/119/" class="archive-item-link">北韓駭客攻擊資安研究員手法再升級！不只架設冒牌資安公司網站，還以徵才名義行騙</a>
-                        <span class="archive-item-date">04-02</span>
-                    </article><h3 class="group-title">2021-03 <sup>15</sup></h3><article class="archive-item">
-                        <a href="/118/" class="archive-item-link">美國國家人工智慧安全委員會報告</a>
-                        <span class="archive-item-date">03-31</span>
-                    </article><article class="archive-item">
-                        <a href="/117/" class="archive-item-link">【那群默默守護台灣資安的人】資安破口誰來補？他們是公司和政府的「資安保健師」</a>
-                        <span class="archive-item-date">03-31</span>
-                    </article><article class="archive-item">
-                        <a href="/116/" class="archive-item-link">2021年 4 月份資安、社群活動分享</a>
-                        <span class="archive-item-date">03-30</span>
-                    </article><article class="archive-item">
-                        <a href="/115/" class="archive-item-link">無線 IoT 設備製造商 Sierra Wireless 遭勒贖攻擊</a>
-                        <span class="archive-item-date">03-30</span>
-                    </article><article class="archive-item">
-                        <a href="/114/" class="archive-item-link">資安疑慮風暴延燒　日本政府擬暫停部份單位用Line傳資料</a>
-                        <span class="archive-item-date">03-30</span>
-                    </article><article class="archive-item">
-                        <a href="/113/" class="archive-item-link">先發現微軟bug，卻被捲入駭客風波！戴夫寇爾賣的是怎樣的「攻擊型」資安服務？</a>
-                        <span class="archive-item-date">03-29</span>
-                    </article><article class="archive-item">
-                        <a href="/112/" class="archive-item-link">中共網攻加劇 外交部資安警訊增近40倍</a>
-                        <span class="archive-item-date">03-29</span>
-                    </article><article class="archive-item">
-                        <a href="/111/" class="archive-item-link">「九章」超越超級電腦 美媒 : 中國展現「量子霸權」</a>
-                        <span class="archive-item-date">03-29</span>
-                    </article><article class="archive-item">
-                        <a href="/110/" class="archive-item-link">數位發展部人力配置 郭耀煌：並非是各部會移撥業務的拼湊</a>
-                        <span class="archive-item-date">03-27</span>
-                    </article><article class="archive-item">
-                        <a href="/109/" class="archive-item-link">宏碁驚傳遭勒索14億 囂張駭客嗆：限時付款8折優惠</a>
-                        <span class="archive-item-date">03-24</span>
-                    </article><article class="archive-item">
-                        <a href="/108/" class="archive-item-link">大陸工程師偷看對話內容　日本LINE爆資安危機</a>
-                        <span class="archive-item-date">03-24</span>
-                    </article><article class="archive-item">
-                        <a href="/107/" class="archive-item-link">資安廠商指出，釣魚攻擊者發展出多種手法，使二階段驗證保護失去效力</a>
-                        <span class="archive-item-date">03-24</span>
-                    </article><article class="archive-item">
-                        <a href="/106/" class="archive-item-link">美國大型啤酒廠疑遭勒贖駭侵攻擊，導致生產受阻</a>
-                        <span class="archive-item-date">03-24</span>
-                    </article><article class="archive-item">
-                        <a href="/105/" class="archive-item-link">網路設備廠商F5呼籲用戶修補BIG-IP與BIG-IQ產品的嚴重漏洞</a>
-                        <span class="archive-item-date">03-24</span>
-                    </article><article class="archive-item">
-                        <a href="/104/" class="archive-item-link">雲端監視服務遭駭，車廠、醫院、監獄、公司行號影像被公開</a>
-                        <span class="archive-item-date">03-24</span>
-                    </article><ul class="pagination"><li class="page-item ">
+                            <a href="/123/" class="archive-item-link">資安廠商指出，釣魚攻擊者發展出多種手法，使二階段驗證保護失去效力</a>
+                            <span class="archive-item-date">04-03</span>
+                        </article><article class="archive-item">
+                            <a href="/122/" class="archive-item-link">工業4.0世代的第三次安全革命 (上)(下)</a>
+                            <span class="archive-item-date">04-03</span>
+                        </article><article class="archive-item">
+                            <a href="/121/" class="archive-item-link">數位貨幣爭霸戰 台灣準備好了嗎？</a>
+                            <span class="archive-item-date">04-02</span>
+                        </article><article class="archive-item">
+                            <a href="/120/" class="archive-item-link">IEC 62443</a>
+                            <span class="archive-item-date">04-02</span>
+                        </article><article class="archive-item">
+                            <a href="/119/" class="archive-item-link">北韓駭客攻擊資安研究員手法再升級！不只架設冒牌資安公司網站，還以徵才名義行騙</a>
+                            <span class="archive-item-date">04-02</span>
+                        </article><h3 class="group-title">2021-03 <sup>15</sup></h3><article class="archive-item">
+                            <a href="/118/" class="archive-item-link">美國國家人工智慧安全委員會報告</a>
+                            <span class="archive-item-date">03-31</span>
+                        </article><article class="archive-item">
+                            <a href="/117/" class="archive-item-link">【那群默默守護台灣資安的人】資安破口誰來補？他們是公司和政府的「資安保健師」</a>
+                            <span class="archive-item-date">03-31</span>
+                        </article><article class="archive-item">
+                            <a href="/116/" class="archive-item-link">2021年 4 月份資安、社群活動分享</a>
+                            <span class="archive-item-date">03-30</span>
+                        </article><article class="archive-item">
+                            <a href="/115/" class="archive-item-link">無線 IoT 設備製造商 Sierra Wireless 遭勒贖攻擊</a>
+                            <span class="archive-item-date">03-30</span>
+                        </article><article class="archive-item">
+                            <a href="/114/" class="archive-item-link">資安疑慮風暴延燒　日本政府擬暫停部份單位用Line傳資料</a>
+                            <span class="archive-item-date">03-30</span>
+                        </article><article class="archive-item">
+                            <a href="/113/" class="archive-item-link">先發現微軟bug，卻被捲入駭客風波！戴夫寇爾賣的是怎樣的「攻擊型」資安服務？</a>
+                            <span class="archive-item-date">03-29</span>
+                        </article><article class="archive-item">
+                            <a href="/112/" class="archive-item-link">中共網攻加劇 外交部資安警訊增近40倍</a>
+                            <span class="archive-item-date">03-29</span>
+                        </article><article class="archive-item">
+                            <a href="/111/" class="archive-item-link">「九章」超越超級電腦 美媒 : 中國展現「量子霸權」</a>
+                            <span class="archive-item-date">03-29</span>
+                        </article><article class="archive-item">
+                            <a href="/110/" class="archive-item-link">數位發展部人力配置 郭耀煌：並非是各部會移撥業務的拼湊</a>
+                            <span class="archive-item-date">03-27</span>
+                        </article><article class="archive-item">
+                            <a href="/109/" class="archive-item-link">宏碁驚傳遭勒索14億 囂張駭客嗆：限時付款8折優惠</a>
+                            <span class="archive-item-date">03-24</span>
+                        </article><article class="archive-item">
+                            <a href="/108/" class="archive-item-link">大陸工程師偷看對話內容　日本LINE爆資安危機</a>
+                            <span class="archive-item-date">03-24</span>
+                        </article><article class="archive-item">
+                            <a href="/107/" class="archive-item-link">資安廠商指出，釣魚攻擊者發展出多種手法，使二階段驗證保護失去效力</a>
+                            <span class="archive-item-date">03-24</span>
+                        </article><article class="archive-item">
+                            <a href="/106/" class="archive-item-link">美國大型啤酒廠疑遭勒贖駭侵攻擊，導致生產受阻</a>
+                            <span class="archive-item-date">03-24</span>
+                        </article><article class="archive-item">
+                            <a href="/105/" class="archive-item-link">網路設備廠商F5呼籲用戶修補BIG-IP與BIG-IQ產品的嚴重漏洞</a>
+                            <span class="archive-item-date">03-24</span>
+                        </article><article class="archive-item">
+                            <a href="/104/" class="archive-item-link">雲端監視服務遭駭，車廠、醫院、監獄、公司行號影像被公開</a>
+                            <span class="archive-item-date">03-24</span>
+                        </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/posts/">1</a>
                     </span>
@@ -198,8 +373,13 @@
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.83.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">chico</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        <div class="footer-container">
+            
+            <div class="footer-line">
+                <span id="run-time"></span>
+            </div><div class="footer-line">
+                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.83.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">chico</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
         </div>
     </footer></div>
 
@@ -208,7 +388,22 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"複製到剪貼簿","maxShownLines":10},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本網站使用 Cookies 來改善您的瀏覽體驗."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Welcome...","id-2":"Welcome..."},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"FSEU56QK1S","algoliaIndex":"index","algoliaSearchKey":"4da457050687c67649219a6e5ac038dd","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到結果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div>
+
+        
+        <div class="sidebar_wo">
+            <div id="leimu">
+              <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png" alt="雷姆" 
+              onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuB.png'" 
+              onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png'" title="回到顶部">
+            </div>
+            <div class="sidebar_wo" id="lamu">
+              <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png" alt="雷姆" 
+              onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuB.png'" 
+              onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png'" title="回到底部">
+            </div>
+          </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"複製到剪貼簿","maxShownLines":10},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本網站使用 Cookies 來改善您的瀏覽體驗."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Welcome...","id-2":"Welcome..."},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"FSEU56QK1S","algoliaIndex":"index","algoliaSearchKey":"4da457050687c67649219a6e5ac038dd","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到結果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-198953304-1', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-198953304-1" async></script></body>
