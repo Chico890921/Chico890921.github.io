@@ -38,6 +38,17 @@ border-animation="led" >}}
 
 <br></br>
 
+## 資安
+
+{{< friend
+name="資安趨勢部落格"
+url="https://blog.trendmicro.com.tw/"
+word=""
+primary-color="blue"
+border-animation="led" >}}
+
+<br></br>
+
 ##
 
 {{< friend

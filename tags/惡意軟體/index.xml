@@ -4,7 +4,35 @@
         <link>https://Chico890921.github.io/tags/%E6%83%A1%E6%84%8F%E8%BB%9F%E9%AB%94/</link>
         <description>惡意軟體 - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 Apr 2021 14:00:15 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E6%83%A1%E6%84%8F%E8%BB%9F%E9%AB%94/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 Jul 2021 04:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E6%83%A1%E6%84%8F%E8%BB%9F%E9%AB%94/" rel="self" type="application/rss+xml" /><item>
+    <title>Google 下架 9 個會竊取用戶 Facebook 密碼的 Android App</title>
+    <link>https://Chico890921.github.io/459/</link>
+    <pubDate>Sun, 11 Jul 2021 04:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/459/</guid>
+    <description><![CDATA[Google 日前自 Google Play Store 中下架了 9 款 Android App，原因是這些 App 遭資安專家發現，會用特殊方式竊取用戶的 Facebook 密碼。]]></description>
+</item><item>
+    <title>你遊戲我賺錢，玩盜版遊戲的代價，幫破解遊戲保護的人挖礦</title>
+    <link>https://Chico890921.github.io/437/</link>
+    <pubDate>Sat, 03 Jul 2021 05:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/437/</guid>
+    <description><![CDATA[包括《NBA 2K19》、《Jurassic World Evolution》等多款遊戲盜版軟體內藏惡意挖礦軟體，並具備關閉防毒軟體等反偵測能力]]></description>
+</item><item>
+    <title>感染後會阻止你從網站上下載盜版軟體與影片的惡意程式</title>
+    <link>https://Chico890921.github.io/436/</link>
+    <pubDate>Sat, 03 Jul 2021 04:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/436/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>微軟發現大量挖礦惡意軟體，鎖定 Kubernetes 運算叢集進行攻擊</title>
+    <link>https://Chico890921.github.io/413/</link>
+    <pubDate>Thu, 17 Jun 2021 05:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/413/</guid>
+    <description><![CDATA[微軟公司日前發表研究報告，指出該公司發現一個全新攻擊活動，針對眾多 Kubernetes 運算叢集植入挖礦惡意容器（pod），正在大量蔓延。]]></description>
+</item><item>
     <title>惡意軟體</title>
     <link>https://Chico890921.github.io/178/</link>
     <pubDate>Fri, 30 Apr 2021 14:00:15 &#43;0800</pubDate>
@@ -46,33 +74,5 @@
     <author>作者</author>
     <guid>https://Chico890921.github.io/147/</guid>
     <description><![CDATA[]]></description>
-</item><item>
-    <title>2020 年間偵測到的 Windows 惡意軟體感染事件高達一億起以上</title>
-    <link>https://Chico890921.github.io/103/</link>
-    <pubDate>Wed, 24 Mar 2021 23:56:35 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://Chico890921.github.io/103/</guid>
-    <description><![CDATA[資安廠商發表 2020 年針對 Windows 系統的全球惡意軟體駭侵攻擊統計結果，指出在去年一整年期間，一共偵測到高達 1.11 億起的感染事件。]]></description>
-</item><item>
-    <title>QNAP NAS 已知漏洞遭駭侵者用以惡意挖礦</title>
-    <link>https://Chico890921.github.io/100/</link>
-    <pubDate>Wed, 24 Mar 2021 21:55:35 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://Chico890921.github.io/100/</guid>
-    <description><![CDATA[資安廠商近期發現有駭侵者利用 QNAP NAS 設備的兩個已知嚴重漏洞，大規模進行惡意挖礦攻擊。QNAP 各型 NAS 用戶應立即升級作業系統與受影響的應用程式，以避免遭到類似攻擊。]]></description>
-</item><item>
-    <title>駭侵者針對雲端開發環境，植入挖礦惡意軟體，濫用系統資源進行挖礦運算</title>
-    <link>https://Chico890921.github.io/97/</link>
-    <pubDate>Wed, 24 Mar 2021 18:55:35 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://Chico890921.github.io/97/</guid>
-    <description><![CDATA[資安廠商發現針對雲端開發環境植入挖礦惡意軟體的攻擊事件，在沉寂數月後，近來又大舉發動攻擊。]]></description>
-</item><item>
-    <title>新發現 XcodeSpy 開發環境惡意軟體，意圖針對 iOS 開發者發動供應鏈攻擊</title>
-    <link>https://Chico890921.github.io/90/</link>
-    <pubDate>Wed, 24 Mar 2021 11:55:35 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://Chico890921.github.io/90/</guid>
-    <description><![CDATA[資安專家近期發現一個惡意的 Xcode 開發計畫案，專門針對 iOS 軟體開發者下手，可在開發者的電腦中安裝後門，發動供應鏈攻擊。]]></description>
 </item></channel>
 </rss>
