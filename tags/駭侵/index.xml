@@ -6,17 +6,17 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
             <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Apr 2021 13:00:15 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E9%A7%AD%E4%BE%B5/" rel="self" type="application/rss+xml" /><item>
     <title>假冒 Android 版 Clubhouse app，大量竊取用戶手機儲存的登入資訊</title>
-    <link>https://Chico890921.github.io/124/</link>
+    <link>https://Chico890921.github.io/posts/124/</link>
     <pubDate>Sat, 03 Apr 2021 13:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/124/</guid>
+    <guid>https://Chico890921.github.io/posts/124/</guid>
     <description><![CDATA[資安廠商 ESET 旗下的資安專家近期發表研究報告，指出該單位發現一個假冒為 Android 版 Clubhouse 的惡意行動應用程式；這支假 app 會竊取用戶手機內儲存的 458 種網路服務的登入資訊。]]></description>
 </item><item>
     <title>資安廠商指出，釣魚攻擊者發展出多種手法，使二階段驗證保護失去效力</title>
-    <link>https://Chico890921.github.io/123/</link>
+    <link>https://Chico890921.github.io/posts/123/</link>
     <pubDate>Sat, 03 Apr 2021 12:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/123/</guid>
+    <guid>https://Chico890921.github.io/posts/123/</guid>
     <description><![CDATA[資安廠商 SlashNext 日前發表研究報告指出，駭侵團體已發展出多種不同的手法，可以對應二階段驗證（Two-Factor Authentication, 2FA），使其失去原有的保護能力。]]></description>
 </item></channel>
 </rss>

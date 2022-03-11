@@ -5,31 +5,31 @@
 <br><br/>
 
 ## Step1. 點進你想下載的檔案
-![](https://i.imgur.com/9XgkeTM.jpg)
+![](https://i.imgur.com/lqRD86Q.jpg)
 <br></br>
 
 &nbsp;
 
 ## Step2. 滑鼠右鍵，選擇 檢視框架原始碼
-![](https://i.imgur.com/1b25FZC.jpg)
+![](https://i.imgur.com/C8ZMP0Q.png)
 <br></br>
 
 &nbsp;
 
 ## Step 3. 把在網址開頭的 view-source: 刪除，再按 Enter
-![](https://i.imgur.com/Dfgaa0t.png)
+![](https://i.imgur.com/SUfXgOK.png)
 <br></br>
 
 &nbsp;
 
 ## Step 4. 滑鼠右鍵，選擇 檢查
-![](https://i.imgur.com/DOTNqT9.jpg)
+![](https://i.imgur.com/OmhPDy7.png)
 <br></br>
 
 &nbsp;
 
 ## Step 5. 點選 Network
-![](https://i.imgur.com/TKEX6HX.jpg)
+![](https://i.imgur.com/WATTnUn.png)
 <br></br>
 
 &nbsp;
@@ -40,7 +40,7 @@
 
 ### 在 Type 中找到 fetch ，按右鍵，Open in new tab
 ### (可能有多 fetch，隨便一個都行)
-![](https://i.imgur.com/4M2ghkX.jpg)
+![](https://i.imgur.com/MwqRHcx.png)
 
 ## 成功下載 :)
 
@@ -55,5 +55,5 @@
 {{< /admonition >}}
 
 
-![](https://i.imgur.com/1QxDK5A.jpg)
+![](https://i.imgur.com/3oxiI8p.png)
 

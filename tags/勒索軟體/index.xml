@@ -6,73 +6,73 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
             <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 Jul 2021 06:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E5%8B%92%E7%B4%A2%E8%BB%9F%E9%AB%94/" rel="self" type="application/rss+xml" /><item>
     <title>造成 REvil 勒贖攻擊全球 1,500 家企業的 0-day 漏洞，將獲 Kaseya 原廠修補</title>
-    <link>https://Chico890921.github.io/461/</link>
+    <link>https://Chico890921.github.io/posts/461/</link>
     <pubDate>Sun, 11 Jul 2021 06:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/461/</guid>
+    <guid>https://Chico890921.github.io/posts/461/</guid>
     <description><![CDATA[七月初由駭侵勒贖團體 REvil 針對 Kaseya VSA 伺服器發動的全球性勒贖攻擊活動，所使用的 0-day 資安漏洞，即將在近日由 Kaseya 推出修補程式予以修補。]]></description>
 </item><item>
     <title>勒索軟體防護成熟度自評說明 - 使用美國CISA CSET RRA軟體模組</title>
-    <link>https://Chico890921.github.io/460/</link>
+    <link>https://Chico890921.github.io/posts/460/</link>
     <pubDate>Sun, 11 Jul 2021 05:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/460/</guid>
+    <guid>https://Chico890921.github.io/posts/460/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>全球逾千家企業遭REvil勒索軟體攻擊，建議落實資安防護</title>
-    <link>https://Chico890921.github.io/458/</link>
+    <link>https://Chico890921.github.io/posts/458/</link>
     <pubDate>Sun, 11 Jul 2021 03:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/458/</guid>
+    <guid>https://Chico890921.github.io/posts/458/</guid>
     <description><![CDATA[REvil勒索軟體攻擊對象涵蓋全球各大領域產業，影響逾千家企業，台灣多家大型企業也曾受駭，建議企業落實資安防護措施，提升員工資安意識，以免遭勒索軟體攻擊而造成損失。]]></description>
 </item><item>
     <title>美國資安主管機關 CISA 推出勒贖攻擊防護評估指南</title>
-    <link>https://Chico890921.github.io/456/</link>
+    <link>https://Chico890921.github.io/posts/456/</link>
     <pubDate>Sun, 11 Jul 2021 01:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/456/</guid>
+    <guid>https://Chico890921.github.io/posts/456/</guid>
     <description><![CDATA[美國聯邦政府資安主管機關 CISA，近日推出勒贖攻擊防護評估指南，供各公私單位參考，以對抗日益嚴重的勒贖攻擊。]]></description>
 </item><item>
     <title>勒索軟體防護指南</title>
-    <link>https://Chico890921.github.io/455/</link>
+    <link>https://Chico890921.github.io/posts/455/</link>
     <pubDate>Sun, 11 Jul 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/455/</guid>
+    <guid>https://Chico890921.github.io/posts/455/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>勒索軟體 REvil 盯上 Linux 平臺</title>
-    <link>https://Chico890921.github.io/442/</link>
+    <link>https://Chico890921.github.io/posts/442/</link>
     <pubDate>Sat, 03 Jul 2021 10:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/442/</guid>
+    <guid>https://Chico890921.github.io/posts/442/</guid>
     <description><![CDATA[不只是REvil，包括Babuk、RansomExx/Defray、Mespinoza等勒索軟體，也都發展出鎖定VMware ESXi虛擬機器的Linux加密工具]]></description>
 </item><item>
     <title>CISA 釋出勒索軟體攻擊自我評估安全工具</title>
-    <link>https://Chico890921.github.io/435/</link>
+    <link>https://Chico890921.github.io/posts/435/</link>
     <pubDate>Sat, 03 Jul 2021 03:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/435/</guid>
+    <guid>https://Chico890921.github.io/posts/435/</guid>
     <description><![CDATA[美國網路安全及基礎設施安全局（CISA）的網路安全評估工具（CSET）納入新模組，旨在協助組織診斷自身資安體質是否足夠健全，以應付勒索軟體攻擊]]></description>
 </item><item>
     <title>勒索軟體Hello/WickrMe瞄準微軟SharePoint伺服器漏洞發動攻擊</title>
-    <link>https://Chico890921.github.io/400/</link>
+    <link>https://Chico890921.github.io/posts/400/</link>
     <pubDate>Fri, 11 Jun 2021 16:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/400/</guid>
+    <guid>https://Chico890921.github.io/posts/400/</guid>
     <description><![CDATA[名為Hello/WickrMe的勒索軟體，專攻未修補CVE-2019-0604安全漏洞的SharePoint伺服器，CVE-2019-0604也被美國政府列為近年來，最常遭到駭客開採的十大安全漏洞]]></description>
 </item><item>
     <title>SonicWall SSL VPN設備漏洞被用於勒索軟體攻擊</title>
-    <link>https://Chico890921.github.io/398/</link>
+    <link>https://Chico890921.github.io/posts/398/</link>
     <pubDate>Fri, 11 Jun 2021 14:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/398/</guid>
+    <guid>https://Chico890921.github.io/posts/398/</guid>
     <description><![CDATA[又是SonicWall的設備漏洞被運用於攻擊行動！FireEye揭露約自2021年1月發動的Fivehands勒索軟體攻擊，濫用SonicWall的SSL VPN設備漏洞，鎖定歐洲和北美的組織下手，而背後的攻擊者先前曾運用Ragnar Locker、HelloKitty等勒索軟體]]></description>
 </item><item>
     <title>上膛的武器落入壞人手中：合法工具變成勒索病毒的超級武器</title>
-    <link>https://Chico890921.github.io/390/</link>
+    <link>https://Chico890921.github.io/posts/390/</link>
     <pubDate>Fri, 11 Jun 2021 06:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/390/</guid>
+    <guid>https://Chico890921.github.io/posts/390/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

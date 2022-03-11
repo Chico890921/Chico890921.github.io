@@ -29,36 +29,213 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/Chico890921.github.io\/posts\/170\/"
-        },"image": [{
-                            "@type": "ImageObject",
-                            "url": "https:\/\/Chico890921.github.io\/images\/Apple-Devices-Preview.png",
-                            "width":  3200 ,
-                            "height":  2048 
-                        }],"genre": "posts","keywords": "惡意程式","wordcount":  136 ,
+        },"image": ["https:\/\/Chico890921.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "惡意程式","wordcount":  136 ,
         "url": "https:\/\/Chico890921.github.io\/posts\/170\/","datePublished": "2021-04-30T06:00:15+08:00","dateModified": "2021-04-30T06:00:15+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
-            "name": "xxxx","logo": {
-                    "@type": "ImageObject",
-                    "url": "https:\/\/Chico890921.github.io\/images\/avatar.png",
-                    "width":  528 ,
-                    "height":  560 
-                }},"author": {
+            "name": "xxxx","logo": "https:\/\/Chico890921.github.io\/images\/avatar.png"},"author": {
                 "@type": "Person",
                 "name": "資安趨勢部落格"
             },"description": "無檔案惡意程式早已不是什麼新聞，但目前卻有 日益增加的趨勢。事實上，根據報導，在針對企業的攻擊得逞案例當中，有 77% 都是使用無檔案惡意程式。這類惡意程式不像傳統惡意程式那樣容易被發現，而且會利用各種技巧來長期躲藏在系統內部，因此隨時可能對企業流程或營運基礎架構造成危害。"
     }
     </script></head>
-    <body header-desktop="auto" header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+    <body header-desktop="fixed" header-mobile="fixed"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+        
+        
+        
+        <meta content="index, follow" name="robots">
+
+        
+        
+
+        <div id="mask"></div><script>
+                
+                var BACKGROUND_COLOR = "transparent";   
+                var POINT_NUM = 100;                        
+                var POINT_COLOR = "#79ADDC";  
+                var LINE_LENGTH = 10000;                    
+                
+                
+                var cvs = document.createElement("canvas");
+                cvs.width = window.innerWidth;
+                cvs.height = window.innerHeight;
+                cvs.style.cssText = "\
+                    position:fixed;\
+                    top:0px;\
+                    left:0px;\
+                    z-index:-1;\
+                    opacity:1.0;\
+                    ";
+                document.body.appendChild(cvs);
+                
+                var ctx = cvs.getContext("2d");
+                
+                var startTime = new Date().getTime();
+                
+                
+                function randomInt(min, max) {
+                    return Math.floor((max - min + 1) * Math.random() + min);
+                }
+                
+                function randomFloat(min, max) {
+                    return (max - min) * Math.random() + min;
+                }
+                
+                
+                function Point() {
+                    this.x = randomFloat(0, cvs.width);
+                    this.y = randomFloat(0, cvs.height);
+                
+                    var speed = randomFloat(0.3, 1.4);
+                    var angle = randomFloat(0, 2 * Math.PI);
+                
+                    this.dx = Math.sin(angle) * speed;
+                    this.dy = Math.cos(angle) * speed;
+                
+                    this.r = 1.2;
+                
+                    this.color = POINT_COLOR;
+                }
+                
+                Point.prototype.move = function () {
+                    this.x += this.dx;
+                    if (this.x < 0) {
+                        this.x = 0;
+                        this.dx = -this.dx;
+                    } else if (this.x > cvs.width) {
+                        this.x = cvs.width;
+                        this.dx = -this.dx;
+                    }
+                    this.y += this.dy;
+                    if (this.y < 0) {
+                        this.y = 0;
+                        this.dy = -this.dy;
+                    } else if (this.y > cvs.height) {
+                        this.y = cvs.height;
+                        this.dy = -this.dy;
+                    }
+                }
+                
+                Point.prototype.draw = function () {
+                    ctx.fillStyle = this.color;
+                    ctx.beginPath();
+                    ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
+                    ctx.closePath();
+                    ctx.fill();
+                }
+                
+                var points = [];
+                
+                function initPoints(num) {
+                    for (var i = 0; i < num; ++i) {
+                        points.push(new Point());
+                    }
+                }
+                
+                var p0 = new Point(); 
+                p0.dx = p0.dy = 0;
+                var degree = 2.5;
+                document.onmousemove = function (ev) {
+                    p0.x = ev.clientX;
+                    p0.y = ev.clientY;
+                }
+                document.onmousedown = function (ev) {
+                    degree = 5.0;
+                    p0.x = ev.clientX;
+                    p0.y = ev.clientY;
+                }
+                document.onmouseup = function (ev) {
+                    degree = 2.5;
+                    p0.x = ev.clientX;
+                    p0.y = ev.clientY;
+                }
+                window.onmouseout = function () {
+                    p0.x = null;
+                    p0.y = null;
+                }
+                
+                function drawLine(p1, p2, deg) {
+                    var dx = p1.x - p2.x;
+                    var dy = p1.y - p2.y;
+                    var dis2 = dx * dx + dy * dy;
+                    if (dis2 < 2 * LINE_LENGTH) {
+                        if (dis2 > LINE_LENGTH) {
+                            if (p1 === p0) {
+                                p2.x += dx * 0.03;
+                                p2.y += dy * 0.03;
+                            } else return;
+                        }
+                        var t = (1.05 - dis2 / LINE_LENGTH) * 0.2 * deg;
+                        ctx.strokeStyle = "rgba(121,173,220," + t + ")";
+                        ctx.beginPath();
+                        ctx.lineWidth = 1.5;
+                        ctx.moveTo(p1.x, p1.y);
+                        ctx.lineTo(p2.x, p2.y);
+                        ctx.closePath();
+                        ctx.stroke();
+                    }
+                    return;
+                }
+                
+                
+                function drawFrame() {
+                    cvs.width = window.innerWidth;
+                    cvs.height = window.innerHeight;
+                    ctx.fillStyle = BACKGROUND_COLOR;
+                    ctx.fillRect(0, 0, cvs.width, cvs.height);
+                
+                    var arr = (p0.x == null ? points : [p0].concat(points));
+                    for (var i = 0; i < arr.length; ++i) {
+                        for (var j = i + 1; j < arr.length; ++j) {
+                            drawLine(arr[i], arr[j], 1.0);
+                        }
+                        arr[i].draw();
+                        arr[i].move();
+                    }
+                
+                    window.requestAnimationFrame(drawFrame);
+                }
+    
+                initPoints(POINT_NUM);
+                drawFrame();
+            </script>
+        
+
+
+        <div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
+
+        
+        
+            <div class="top-scroll-bar"></div>
+                  
+        
+
+        
+        <script src="https://cdn.jsdelivr.net/gh/Chico890921/live2d-widget@0.10.2/autoload.js"></script>
+
+
         <div class="header-title">
-            <a href="/" title="涼涼"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span><span id="id-1" class="typeit"></span></a>
+            <a href="/" title="涼涼"><span class="header-title-pre"><i class='fas fa-hat-cowboy-side fa-fw'></i></span><span id="id-1" class="typeit"></span></a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/categories/"> Categories </a><a class="menu-item" href="/tags/"> Tags </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner">
+                        <div class="dropdown">
+                            <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> Posts 
+                            </a>
+                            <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> Categories </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tags'></i> Tags </a></div>
+                        </div>
+                    
+                        <div class="dropdown">
+                            <a href="javascript:void(0);" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> Funny 
+                            </a>
+                            <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" ><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" ><i class='fas fa-cube'></i> 旋轉魔方 </a><a href="/funny/hamster/" title="" ><i class='fas fa-paw'></i> 倉鼠模擬 </a></div>
+                        </div>
+                    <a class="menu-item" href="/friends/"><i class='fas fa-dungeon'></i> 傳送門 
+                        </a><a class="menu-item" href="/secreats/"><i class='fab fa-expeditedssl'></i>  
+                        </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
                         <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
@@ -77,7 +254,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="涼涼"><span class="header-title-pre"><i class='far fa-kiss-wink-heart fa-fw'></i></span><span id="id-2" class="typeit"></span></a>
+                <a href="/" title="涼涼"><span class="header-title-pre"><i class='fas fa-hat-cowboy-side fa-fw'></i></span><span id="id-2" class="typeit"></span></a>
             </div>
             <div class="menu-toggle" id="menu-toggle-mobile">
                 <span></span><span></span><span></span>
@@ -86,7 +263,7 @@
         <div class="menu" id="menu-mobile"><div class="search-wrapper">
                     <div class="search mobile" id="search-mobile">
                         <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
                             <i class="fas fa-search fa-fw"></i>
                         </a>
                         <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
@@ -99,7 +276,21 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/categories/" title="">Categories</a><a class="menu-item" href="/tags/" title="">Tags</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
+                </div>
+                    <div class="dropdown">
+                        <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> Posts 
+                        </a>
+                        <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> Categories </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tags'></i> Tags </a></div>
+                    </div>
+                
+                    <div class="dropdown">
+                        <a href="javascript:void(0);" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> Funny 
+                        </a>
+                        <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" ><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" ><i class='fas fa-cube'></i> 旋轉魔方 </a><a href="/funny/hamster/" title="" ><i class='fas fa-paw'></i> 倉鼠模擬 </a></div>
+                    </div>
+                <a class="menu-item" href="/friends/"><i class='fas fa-dungeon'></i> 傳送門 
+                    </a><a class="menu-item" href="/secreats/"><i class='fab fa-expeditedssl'></i>  
+                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -110,9 +301,9 @@
 <div class="search-dropdown mobile">
     <div id="search-dropdown-mobile"></div>
 </div>
-<main class="main">
+    <main class="main">
                 <div class="container"><div class="toc" id="toc-auto">
-            <h2 class="toc-title">目錄</h2>
+            <h2 class="toc-title">Contents</h2>
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">無檔案惡意程式(Fileless Malware)五種運作方式</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://blog.trendmicro.com.tw/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>資安趨勢部落格</a></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div>
@@ -120,14 +311,22 @@
                 <i class="far fa-clock fa-fw"></i>&nbsp;預計閱讀 1 分鐘&nbsp;</div>
         </div><div class="details toc" id="toc-static"  kept="">
                 <div class="details-summary toc-title">
-                    <span>目錄</span>
+                    <span>Contents</span>
                     <span><i class="details-icon fas fa-angle-right"></i></span>
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
             </div><div class="content" id="content"><!--170-->
 <p><br><br/></p>
 <p>無檔案惡意程式早已不是什麼新聞，但目前卻有 日益增加的趨勢。事實上，根據報導，在針對企業的攻擊得逞案例當中，有 77% 都是使用無檔案惡意程式。這類惡意程式不像傳統惡意程式那樣容易被發現，而且會利用各種技巧來長期躲藏在系統內部，因此隨時可能對企業流程或營運基礎架構造成危害。</p>
-<p><a href="https://blog.trendmicro.com.tw/?p=58512" target="_blank" rel="noopener noreffer">閱讀全文</a></p></div><div class="post-footer" id="post-footer">
+<p><a href="https://blog.trendmicro.com.tw/?p=58512" target="_blank" rel="noopener noreffer">閱讀全文</a></p><div class="details admonition warning open">
+			<div class="details-summary admonition-title">
+				<i class="icon fas fa-exclamation-triangle fa-fwwarning"></i>Warning<i class="details-icon fas fa-angle-right fa-fw"></i>
+		    </div>
+			<div class="details-content">
+				<div class="admonition-content">
+					本文最後更新於 <span class="timeago" datetime="2021-04-30T06:00:15" title="April 30, 2021">April 30, 2021</span>，文中內容可能已過時，請謹慎使用。</div>
+			</div>
+		 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -146,55 +345,74 @@
     <div class="post-info-more">
         <section class="post-tags"><i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%83%A1%E6%84%8F%E7%A8%8B%E5%BC%8F/">惡意程式</a></section>
         <section>
-            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主頁</a></span>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
     </div>
 
     <div class="post-nav"><a href="/posts/169/" class="prev" rel="prev" title="手機攻擊詐騙時有所聞　行動鑑識找出關鍵跡證"><i class="fas fa-angle-left fa-fw"></i>手機攻擊詐騙時有所聞　行動鑑識找出關鍵跡證</a>
             <a href="/posts/171/" class="next" rel="next" title="駭客是如何製作無法偵測的惡意軟體和病毒">駭客是如何製作無法偵測的惡意軟體和病毒<i class="fas fa-angle-right fa-fw"></i></a></div>
-    
-    <div class="related-posts"></br>
-            &nbsp;
-            <h2>related posts</h2>
-            <b></b>
-            
-                <li class="relatedPost">
-                    <a href="/posts/352/">中國駭客開發Windows後門程式，攻擊東南亞國家政府</a><br />
-                    
-                </li>
-            
-                <li class="relatedPost">
-                    <a href="/posts/349/">刑事局資安鑑識實驗室全球首創：將惡意程式分析流程標準化並取得ISO國際認證</a><br />
-                    
-                </li>
-            
-                <li class="relatedPost">
-                    <a href="/posts/348/">蘋果坦承 Mac 存在惡意程式比 iPhone 多 40 倍!</a><br />
-                    
-                </li>
-            
-                <li class="relatedPost">
-                    <a href="/posts/174/">打造你的 AI 資安鑑識專家：惡意程式分析之特徵萃取研究篇</a><br />
-                    
-                </li>
-            
-                <li class="relatedPost">
-                    <a href="/posts/173/">臺灣首套協助資安鑑識惡意程式分析工具出爐</a><br />
-                    
-                </li>
-            </div>
 </div>
+
+<div class="related-posts"></br>
+		<b></b>
+        <br></br>
+        <h2>Released Post</h2>
+		
+			<li class="relatedPost">
+				<a href="/posts/441/">駭客組織 Gelsemium 藉由 NoxPlayer（夜神模擬器）的更新機制來植入惡意程式，受害者包含臺灣</a><br />
+			</li>
+		
+			<li class="relatedPost">
+				<a href="/posts/434/">玩遊戲時打不贏你就干擾你直到我獲勝，以驅動程式型態存在的惡意蠕蟲 Netfilter</a><br />
+			</li>
+		
+			<li class="relatedPost">
+				<a href="/posts/352/">中國駭客開發Windows後門程式，攻擊東南亞國家政府</a><br />
+			</li>
+		
+			<li class="relatedPost">
+				<a href="/posts/349/">刑事局資安鑑識實驗室全球首創：將惡意程式分析流程標準化並取得ISO國際認證</a><br />
+			</li>
+		
+			<li class="relatedPost">
+				<a href="/posts/348/">蘋果坦承 Mac 存在惡意程式比 iPhone 多 40 倍!</a><br />
+			</li>
+		</div>
 <div id="comments"><div id="utterances"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
             </noscript></div></article></div>
-            </main></div>
+            </main><footer class="footer">
+        <div class="footer-container">
+            
+            <div class="footer-line">
+                <span id="run-time"></span>
+            </div><div class="footer-line">
+                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.83.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">chico</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
+        </div>
+    </footer></div>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到頂部">
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
                 <i class="fas fa-arrow-up fa-fw"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="查看評論">
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"複製到剪貼簿","maxShownLines":10},"comment":{"utterances":{"darkTheme":"github-dark-orange","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"Chico890921/Chico890921.github.io"}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本網站使用 Cookies 來改善您的瀏覽體驗."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Welcome...","id-2":"Welcome..."},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"FSEU56QK1S","algoliaIndex":"index","algoliaSearchKey":"4da457050687c67649219a6e5ac038dd","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到結果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div>
+
+        
+        <div class="sidebar_wo">
+            <div id="leimu">
+              <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png" alt="雷姆" 
+              onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuB.png'" 
+              onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png'" title="回到顶部">
+            </div>
+            <div class="sidebar_wo" id="lamu">
+              <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png" alt="雷姆" 
+              onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuB.png'" 
+              onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png'" title="回到底部">
+            </div>
+          </div>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"複製到剪貼簿","maxShownLines":10},"comment":{"utterances":{"darkTheme":"github-dark-orange","issueTerm":"pathname","label":"","lightTheme":"github-light","repo":"Chico890921/Chico890921.github.io"}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本網站使用 Cookies 來改善您的瀏覽體驗."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Welcome...","id-2":"Welcome..."},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"FSEU56QK1S","algoliaIndex":"index","algoliaSearchKey":"4da457050687c67649219a6e5ac038dd","highlightTag":"em","maxResultLength":30,"noResultsFound":"没有找到結果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-198953304-1', { 'anonymize_ip': true });
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-198953304-1" async></script></body>

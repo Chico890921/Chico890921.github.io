@@ -6,10 +6,10 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
             <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Jun 2021 04:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/android/" rel="self" type="application/rss+xml" /><item>
     <title>Google 修復 Android 嚴重漏洞，可導致駭侵者遠端執行任意程式碼</title>
-    <link>https://Chico890921.github.io/412/</link>
+    <link>https://Chico890921.github.io/posts/412/</link>
     <pubDate>Thu, 17 Jun 2021 04:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/412/</guid>
+    <guid>https://Chico890921.github.io/posts/412/</guid>
     <description><![CDATA[Google 近期在 Android 更新版本中修復多個資安漏洞，其中包含一個可讓駭侵者遠端執行任意程式碼的嚴重漏洞；廣大 Android 裝置用戶應隨時注意並更新系統。]]></description>
 </item></channel>
 </rss>
