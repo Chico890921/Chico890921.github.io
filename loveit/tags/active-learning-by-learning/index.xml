@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Active Learning By Learning - Tag - 涼涼</title>
+        <link>https://Chico890921.github.io/loveit/tags/active-learning-by-learning/</link>
+        <description>Active Learning By Learning - Tag - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 30 Apr 2021 11:00:15 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/active-learning-by-learning/" rel="self" type="application/rss+xml" /><item>
+    <title>打造你的 AI 資安鑑識專家：ALBL 仲裁技術演算法 （以 KDD99 為例）</title>
+    <link>https://Chico890921.github.io/loveit/posts/175/</link>
+    <pubDate>Fri, 30 Apr 2021 11:00:15 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/loveit/posts/175/</guid>
+    <description><![CDATA[以 Active Learning by Learning 作為仲裁技術的核心演算法，根據專家反饋對模型進行訓練。當模型趨近成熟時，便能輔助仲裁進行判斷，不論是在分析或競賽中，仲裁只需審視模型中不確定性較高的資料即可。以 KDD99 資料集為例，藉由人機協作的方式，若專家反饋恰當，則模型的準確率便能獲得有效提升。透過融入主動學習技術，模型能夠隨時因應反饋進行調整，不再受限於異質場域的問題，如此一來，不但能夠依據需求調整模型之功能，還能有效降低因資料結構造成的誤判率。]]></description>
+</item></channel>
+</rss>

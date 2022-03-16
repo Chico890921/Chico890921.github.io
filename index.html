@@ -1,432 +1,354 @@
-<!DOCTYPE html>
-<html lang="zh-tw">
-    <head>
-	<meta name="generator" content="Hugo 0.83.1" />
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="robots" content="noodp" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>涼涼</title><meta name="Description" content="關於 LoveIt 主題"><meta property="og:title" content="涼涼" />
-<meta property="og:description" content="關於 LoveIt 主題" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://Chico890921.github.io/" /><meta property="og:image" content="https://Chico890921.github.io/logo.png"/>
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>涼涼 | 引導頁</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://Chico890921.github.io/logo.png"/>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<meta name="twitter:title" content="涼涼"/>
-<meta name="twitter:description" content="關於 LoveIt 主題"/>
-<meta name="application-name" content="LoveIt">
-<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://Chico890921.github.io/" /><link rel="alternate" href="/index.xml" type="application/rss+xml" title="涼涼">
-    <link rel="feed" href="/index.xml" type="application/rss+xml" title="涼涼"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css"><script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "WebSite",
-        "url": "https:\/\/Chico890921.github.io\/","inLanguage": "zh-tw","author": {
-                "@type": "Person",
-                "name": "chico"
-            },"description": "關於 LoveIt 主題","image": "https:\/\/Chico890921.github.io\/images\/Apple-Devices-Preview.png","thumbnailUrl": "https:\/\/Chico890921.github.io\/images\/screenshot.png","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","name": "涼涼"
-    }
-    </script></head>
-    <body header-desktop="fixed" header-mobile="fixed"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+				<!-- Header -->
+					<header id="header">
+						<div class="logo">
+							<span class="icon solid fa-paw"></span>
+                            <!--<span class="image main"><img src="images/download20220303015549.png" alt="" /></span>-->
+						</div>
+						<div class="content">
+							<div class="inner">
+								<h1>寝つき良いキツネ</h1>
+                                
+							</div>
+						</div>
+						<nav>
+							<ul>
+                                <li><a href="#work"><b>分站</b></a></li>
+								<li><a href="https://chico890921.github.io/loveit"><b>主站</b></a></li>
+								<li><a href="#about"><b>About</b></a></li>
+								<!--<li><a href="#contact">Contact</a></li>
+								<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
 
-        
-        
-        
-        <meta content="index, follow" name="robots">
+				<!-- Main -->
+					<div id="main">
 
-        
-        
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">分站</h2>
+                                <h3>暫不開放~~~</h3>
+								<span class="image main"><img src="images/pic1.png" alt="" /></span>
+							</article>
 
-        <div id="mask"></div><script>
-                
-                var BACKGROUND_COLOR = "transparent";   
-                var POINT_NUM = 100;                        
-                var POINT_COLOR = "#79ADDC";  
-                var LINE_LENGTH = 10000;                    
-                
-                
-                var cvs = document.createElement("canvas");
-                cvs.width = window.innerWidth;
-                cvs.height = window.innerHeight;
-                cvs.style.cssText = "\
-                    position:fixed;\
-                    top:0px;\
-                    left:0px;\
-                    z-index:-1;\
-                    opacity:1.0;\
-                    ";
-                document.body.appendChild(cvs);
-                
-                var ctx = cvs.getContext("2d");
-                
-                var startTime = new Date().getTime();
-                
-                
-                function randomInt(min, max) {
-                    return Math.floor((max - min + 1) * Math.random() + min);
-                }
-                
-                function randomFloat(min, max) {
-                    return (max - min) * Math.random() + min;
-                }
-                
-                
-                function Point() {
-                    this.x = randomFloat(0, cvs.width);
-                    this.y = randomFloat(0, cvs.height);
-                
-                    var speed = randomFloat(0.3, 1.4);
-                    var angle = randomFloat(0, 2 * Math.PI);
-                
-                    this.dx = Math.sin(angle) * speed;
-                    this.dy = Math.cos(angle) * speed;
-                
-                    this.r = 1.2;
-                
-                    this.color = POINT_COLOR;
-                }
-                
-                Point.prototype.move = function () {
-                    this.x += this.dx;
-                    if (this.x < 0) {
-                        this.x = 0;
-                        this.dx = -this.dx;
-                    } else if (this.x > cvs.width) {
-                        this.x = cvs.width;
-                        this.dx = -this.dx;
-                    }
-                    this.y += this.dy;
-                    if (this.y < 0) {
-                        this.y = 0;
-                        this.dy = -this.dy;
-                    } else if (this.y > cvs.height) {
-                        this.y = cvs.height;
-                        this.dy = -this.dy;
-                    }
-                }
-                
-                Point.prototype.draw = function () {
-                    ctx.fillStyle = this.color;
-                    ctx.beginPath();
-                    ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-                    ctx.closePath();
-                    ctx.fill();
-                }
-                
-                var points = [];
-                
-                function initPoints(num) {
-                    for (var i = 0; i < num; ++i) {
-                        points.push(new Point());
-                    }
-                }
-                
-                var p0 = new Point(); 
-                p0.dx = p0.dy = 0;
-                var degree = 2.5;
-                document.onmousemove = function (ev) {
-                    p0.x = ev.clientX;
-                    p0.y = ev.clientY;
-                }
-                document.onmousedown = function (ev) {
-                    degree = 5.0;
-                    p0.x = ev.clientX;
-                    p0.y = ev.clientY;
-                }
-                document.onmouseup = function (ev) {
-                    degree = 2.5;
-                    p0.x = ev.clientX;
-                    p0.y = ev.clientY;
-                }
-                window.onmouseout = function () {
-                    p0.x = null;
-                    p0.y = null;
-                }
-                
-                function drawLine(p1, p2, deg) {
-                    var dx = p1.x - p2.x;
-                    var dy = p1.y - p2.y;
-                    var dis2 = dx * dx + dy * dy;
-                    if (dis2 < 2 * LINE_LENGTH) {
-                        if (dis2 > LINE_LENGTH) {
-                            if (p1 === p0) {
-                                p2.x += dx * 0.03;
-                                p2.y += dy * 0.03;
-                            } else return;
-                        }
-                        var t = (1.05 - dis2 / LINE_LENGTH) * 0.2 * deg;
-                        ctx.strokeStyle = "rgba(121,173,220," + t + ")";
-                        ctx.beginPath();
-                        ctx.lineWidth = 1.5;
-                        ctx.moveTo(p1.x, p1.y);
-                        ctx.lineTo(p2.x, p2.y);
-                        ctx.closePath();
-                        ctx.stroke();
-                    }
-                    return;
-                }
-                
-                
-                function drawFrame() {
-                    cvs.width = window.innerWidth;
-                    cvs.height = window.innerHeight;
-                    ctx.fillStyle = BACKGROUND_COLOR;
-                    ctx.fillRect(0, 0, cvs.width, cvs.height);
-                
-                    var arr = (p0.x == null ? points : [p0].concat(points));
-                    for (var i = 0; i < arr.length; ++i) {
-                        for (var j = i + 1; j < arr.length; ++j) {
-                            drawLine(arr[i], arr[j], 1.0);
-                        }
-                        arr[i].draw();
-                        arr[i].move();
-                    }
-                
-                    window.requestAnimationFrame(drawFrame);
-                }
-    
-                initPoints(POINT_NUM);
-                drawFrame();
-            </script>
-        
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">About</h2>
+								<h3>做的這幾個網站都沒有加上 Google Search Console 的功能</h3><br />
+                                <h3>Google 是搜尋不到的，除非有網址XD</h3>
+                                <span class="image main"><img src="images/download20220303015549.png" alt="" /></span>
+							</article>
 
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<ul class="icons">
+									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</article>
 
-        <div class="wrapper"><header class="desktop" id="header-desktop">
-    <div class="header-wrapper">
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
 
-        
-        
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
 
-        
-        <script src="https://cdn.jsdelivr.net/gh/Chico890921/live2d-widget@0.10.2/autoload.js"></script>
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
 
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
 
-        <div class="header-title">
-            <a href="/" title="涼涼"><span class="header-title-pre"><i class='fas fa-hat-cowboy-side fa-fw'></i></span><span id="id-1" class="typeit"></span></a>
-        </div>
-        <div class="menu">
-            <div class="menu-inner">
-                        <div class="dropdown">
-                            <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> Posts 
-                            </a>
-                            <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> Categories </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tags'></i> Tags </a></div>
-                        </div>
-                    
-                        <div class="dropdown">
-                            <a href="javascript:void(0);" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> Funny 
-                            </a>
-                            <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" ><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" ><i class='fas fa-cube'></i> 旋轉魔方 </a><a href="/funny/hamster/" title="" ><i class='fas fa-paw'></i> 倉鼠模擬 </a></div>
-                        </div>
-                    <a class="menu-item" href="/friends/"><i class='fas fa-dungeon'></i> 傳送門 
-                        </a><a class="menu-item" href="/secreats/"><i class='fab fa-expeditedssl'></i>  
-                        </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
-                            <i class="fas fa-search fa-fw"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
-                            <i class="fas fa-times-circle fa-fw"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-desktop">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
-                        </span>
-                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
-                    <i class="fas fa-adjust fa-fw"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</header><header class="mobile" id="header-mobile">
-    <div class="header-container">
-        <div class="header-wrapper">
-            <div class="header-title">
-                <a href="/" title="涼涼"><span class="header-title-pre"><i class='fas fa-hat-cowboy-side fa-fw'></i></span><span id="id-2" class="typeit"></span></a>
-            </div>
-            <div class="menu-toggle" id="menu-toggle-mobile">
-                <span></span><span></span><span></span>
-            </div>
-        </div>
-        <div class="menu" id="menu-mobile"><div class="search-wrapper">
-                    <div class="search mobile" id="search-mobile">
-                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
-                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
-                            <i class="fas fa-search fa-fw"></i>
-                        </a>
-                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
-                            <i class="fas fa-times-circle fa-fw"></i>
-                        </a>
-                        <span class="search-button search-loading" id="search-loading-mobile">
-                            <i class="fas fa-spinner fa-fw fa-spin"></i>
-                        </span>
-                    </div>
-                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
-                        取消
-                    </a>
-                </div>
-                    <div class="dropdown">
-                        <a href="/posts/" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-archive'></i> Posts 
-                        </a>
-                        <div class="menu-more-content dropdown-content"><a href="/categories/" title="" ><i class='fas fa-fw fa-th'></i> Categories </a><a href="/tags/" title="" ><i class='fas fa-fw fa-tags'></i> Tags </a></div>
-                    </div>
-                
-                    <div class="dropdown">
-                        <a href="javascript:void(0);" class="menu-item menu-more dropbtn" title="" ><i class='fas fa-fw fa-fan fa-spin'></i> Funny 
-                        </a>
-                        <div class="menu-more-content dropdown-content"><a href="/funny/mikutap/" title="" ><i class='fas fa-compact-disc fa-spin'></i> Mikutap </a><a href="/funny/catch-the-cat/" title="" ><i class='fas fa-cat'></i> Catch the cat </a><a href="/funny/magic-blocks/" title="" ><i class='fas fa-cube'></i> 旋轉魔方 </a><a href="/funny/hamster/" title="" ><i class='fas fa-paw'></i> 倉鼠模擬 </a></div>
-                    </div>
-                <a class="menu-item" href="/friends/"><i class='fas fa-dungeon'></i> 傳送門 
-                    </a><a class="menu-item" href="/secreats/"><i class='fab fa-expeditedssl'></i>  
-                    </a><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
-                <i class="fas fa-adjust fa-fw"></i>
-            </a></div>
-    </div>
-</header>
-<div class="search-dropdown desktop">
-    <div id="search-dropdown-desktop"></div>
-</div>
-<div class="search-dropdown mobile">
-    <div id="search-dropdown-mobile"></div>
-</div>
-    <main class="main">
-                <div class="container"><div class="page home" posts><div class="home-profile">
+								<section>
+									<h3 class="major">Lists</h3>
 
-    
-    <div class="cat-container">
-        <div class="cat">
-            <div class="cat-head">
-                <div class="plate-hotzone-trigger"></div>
-                <div class="plate-hotzone2-trigger"></div>
-                <div class="plate-trigger"></div>
-                <div class="wording">
-                    
-                    <div class="z1">Z</div>
-                    <div class="z2">Z</div>
-                    <div class="z3">Z</div>
-                </div>
-                <div class="ear"></div>
-                <div class="eye eye-left"></div>
-                <div class="eyeopen eye-left-open"></div>
-                <div class="eye eye-right"></div>
-                <div class="eyeopen eye-right-open"></div>
-                <div class="mouth"></div>
-                <div class="mouthopen"></div>
-            </div>
-        </div>
-        <div class="plate">
-            <div class="fish-head"></div>
-            <div class="fish-spine">
-                <div class="fish-spine-outer1"></div>
-                <div class="fish-spine-outer2"></div>
-                <div class="fish-spine-outer3"></div>
-                <div class="fish-tail"></div>
-            </div>
-        </div>
-        <div class="floor-line"></div>
-    </div>
-    <h2 class="home-subtitle"><div id="id-3" class="typeit"></div></h2><div class="links"><a href="mailto:191147343satan@gmail.com" title="Email" rel=" me"><i class="far fa-envelope fa-fw"></i></a></div></div>
-<article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/483/">中國整頓網路兒童色情 快手等社群平台挨罰</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.cna.com.tw/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>CNA</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-23">2021-07-23</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content">中國官方近期針對未成年直播與兒童色情等問題進行整頓，約談了包含快手、小紅書在內的5個社群平台。</div><div class="post-footer">
-        <a href="/posts/483/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%B8%85%E7%B6%B2/">清網</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/482/">網路間諜公司引發國際爭議 以色列指派委員會調查</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.cna.com.tw/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>CNA</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-23">2021-07-23</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/482/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E6%83%A1%E6%84%8F%E8%BB%9F%E9%AB%94/">惡意軟體</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/481/">全球多個網站重演大斷網 兩個月內第3起</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.cna.com.tw/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>CNA</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-23">2021-07-23</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/481/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E7%B6%B2%E8%B7%AF%E6%96%B7%E7%B7%9A/">網路斷線</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/480/">美網路服務公司出包 日本政府與東奧網站大斷線</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.cna.com.tw/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>CNA</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-23">2021-07-23</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/480/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E7%B6%B2%E8%B7%AF%E6%96%B7%E7%B7%9A/">網路斷線</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/479/">2021臺灣資安大會直擊番外篇：資安人才大解密【多篇匯集】</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.ithome.com.tw/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>iThome</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-22">2021-07-22</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/479/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/%E8%B3%87%E5%AE%89%E5%A4%A7%E6%9C%83/">資安大會</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/478/">資安實務示範課程大專校院資安種子教師研習營</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>教育部資訊及科技教育司</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-21">2021-07-21</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/activity/"><i class="far fa-folder fa-fw"></i>活動分享</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/478/">Read More...</a></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/477/">教育部青年署U-start創新創業計畫</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://ustart.yda.gov.tw/m/" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>教育部青年署U-start創新創業計畫</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-21">2021-07-21</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/share/"><i class="far fa-folder fa-fw"></i>網站分享</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/477/">Read More...</a></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/476/">四兩撥千金! 創新工廠首席科學家AI大牛周明博士率瀾舟團隊刷新CLUE新紀錄，輕量化模型孟子一鳴驚人! </a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://m.facebook.com/kaifulee?refid=52&amp;__tn__=C-R" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>李開復 Kai-Fu Lee</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-19">2021-07-19</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/476/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/ai/">AI</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/475/">【影片】中美火拚AI！創新工場創始人李開復:「快轉型」這些人才將被取代【看板人物精選】</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.youtube.com/channel/UCmgDmqjxbkqIXu4rNbrKodA" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>TVBS 優選頻道</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-19">2021-07-19</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/475/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/ai/">AI</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/posts/474/">【影片】A.I人工智慧大贏家 李開復 人工智慧工程院院長 看板人物 20170820 (完整版)</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://www.youtube.com/channel/UCmgDmqjxbkqIXu4rNbrKodA" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw"></i>TVBS 優選頻道</a></span>&nbsp;<span class="post-publish">發布於 <time datetime="2021-07-19">2021-07-19</time></span>&nbsp;<span class="post-category">收錄於 <a href="/categories/documentation/"><i class="far fa-folder fa-fw"></i>轉發新聞</a></span></div><div class="content"></div><div class="post-footer">
-        <a href="/posts/474/">Read More...</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw"></i>&nbsp;<a href="/tags/ai/">AI</a></div></div>
-</article><ul class="pagination"><li class="page-item active">
-                    <span class="page-link">
-                        <a href="/">1</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/2/">2</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/3/">3</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link" aria-hidden="true">&hellip;</span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/page/49/">49</a>
-                    </span>
-                </li></ul></div>
-            </main><footer class="footer">
-        <div class="footer-container">
-            
-            <div class="footer-line">
-                <span id="run-time"></span>
-            </div><div class="footer-line">
-                    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.83.1">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
-                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2021 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">chico</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span></div>
-        </div>
-    </footer></div>
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
 
-        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
-                <i class="fas fa-arrow-up fa-fw"></i>
-            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
-                <i class="fas fa-comment fa-fw"></i>
-            </a>
-        </div>
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
 
-        
-        <div class="sidebar_wo">
-            <div id="leimu">
-              <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png" alt="雷姆" 
-              onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuB.png'" 
-              onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/leimuA.png'" title="回到顶部">
-            </div>
-            <div class="sidebar_wo" id="lamu">
-              <img src="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png" alt="雷姆" 
-              onmouseover="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuB.png'" 
-              onmouseout="this.src='https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/b2t/lamuA.png'" title="回到底部">
-            </div>
-          </div>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.37.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.2.0/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.2.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.2.0/dist/js/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-thumbnail.js@1.2.0/dist/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-zoom.js@1.2.0/dist/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"複製到剪貼簿","maxShownLines":10},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本網站使用 Cookies 來改善您的瀏覽體驗."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Welcome...","id-2":"Welcome...","id-3":"群組文章整理 ..."},"lightGallery":{"actualSize":false,"exThumbImage":"data-thumbnail","hideBarsDelay":2000,"selector":".lightgallery","speed":400,"thumbContHeight":80,"thumbWidth":80,"thumbnail":true},"search":{"algoliaAppID":"FSEU56QK1S","algoliaIndex":"index","algoliaSearchKey":"4da457050687c67649219a6e5ac038dd","highlightTag":"em","maxResultLength":30,"noResultsFound":"没有找到結果","snippetLength":50,"type":"algolia"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"],"id-3":["id-3"]},"duration":-1,"speed":100}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script><script type="text/javascript">
-            window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
-            gtag('config', 'UA-198953304-1', { 'anonymize_ip': true });
-        </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-198953304-1" async></script></body>
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Chico. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>

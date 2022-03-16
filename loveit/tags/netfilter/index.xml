@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Netfilter - Tag - 涼涼</title>
+        <link>https://Chico890921.github.io/loveit/tags/netfilter/</link>
+        <description>Netfilter - Tag - 涼涼</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 02:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/netfilter/" rel="self" type="application/rss+xml" /><item>
+    <title>玩遊戲時打不贏你就干擾你直到我獲勝，以驅動程式型態存在的惡意蠕蟲 Netfilter</title>
+    <link>https://Chico890921.github.io/loveit/posts/434/</link>
+    <pubDate>Sat, 03 Jul 2021 02:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://Chico890921.github.io/loveit/posts/434/</guid>
+    <description><![CDATA[惡意程式竟然內有微軟的簽章，而讓微軟的軟體開發供應鏈亮起紅燈！防毒業者G-Data揭露名為Netfilter的蠕蟲程式，內含微軟簽章並得到微軟的證實]]></description>
+</item></channel>
+</rss>
