@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>IEC 62443 - Tag - 涼涼</title>
-        <link>https://Chico890921.github.io/loveit/tags/iec-62443/</link>
+        <link>https://Chico890921.github.io/tags/iec-62443/</link>
         <description>IEC 62443 - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Apr 2021 09:00:15 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/iec-62443/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Apr 2021 09:00:15 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/iec-62443/" rel="self" type="application/rss+xml" /><item>
     <title>IEC 62443</title>
-    <link>https://Chico890921.github.io/loveit/posts/120/</link>
+    <link>https://Chico890921.github.io/posts/120/</link>
     <pubDate>Fri, 02 Apr 2021 09:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/120/</guid>
+    <guid>https://Chico890921.github.io/posts/120/</guid>
     <description><![CDATA[IEC 62443相關網站介紹]]></description>
 </item><item>
     <title>工控資安／3分鐘搞懂工控系統標準 IEC 62443</title>
-    <link>https://Chico890921.github.io/loveit/posts/63/</link>
+    <link>https://Chico890921.github.io/posts/63/</link>
     <pubDate>Mon, 15 Feb 2021 13:55:35 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/63/</guid>
+    <guid>https://Chico890921.github.io/posts/63/</guid>
     <description><![CDATA[了解工控系統標準 IEC 62443]]></description>
 </item></channel>
 </rss>

@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>勒索軟體指南 - Tag - 涼涼</title>
-        <link>https://Chico890921.github.io/loveit/tags/%E5%8B%92%E7%B4%A2%E8%BB%9F%E9%AB%94%E6%8C%87%E5%8D%97/</link>
+        <link>https://Chico890921.github.io/tags/%E5%8B%92%E7%B4%A2%E8%BB%9F%E9%AB%94%E6%8C%87%E5%8D%97/</link>
         <description>勒索軟體指南 - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 02:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/%E5%8B%92%E7%B4%A2%E8%BB%9F%E9%AB%94%E6%8C%87%E5%8D%97/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Jun 2021 02:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E5%8B%92%E7%B4%A2%E8%BB%9F%E9%AB%94%E6%8C%87%E5%8D%97/" rel="self" type="application/rss+xml" /><item>
     <title>RANSOMWARE GUIDE</title>
-    <link>https://Chico890921.github.io/loveit/posts/403/</link>
+    <link>https://Chico890921.github.io/posts/403/</link>
     <pubDate>Sat, 12 Jun 2021 02:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/403/</guid>
+    <guid>https://Chico890921.github.io/posts/403/</guid>
     <description><![CDATA[勒索軟體指南]]></description>
 </item></channel>
 </rss>

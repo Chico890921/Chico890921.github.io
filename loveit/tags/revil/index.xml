@@ -1,29 +1,29 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Revil - Tag - 涼涼</title>
-        <link>https://Chico890921.github.io/loveit/tags/revil/</link>
+        <link>https://Chico890921.github.io/tags/revil/</link>
         <description>Revil - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 Jul 2021 06:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/revil/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 Jul 2021 06:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/revil/" rel="self" type="application/rss+xml" /><item>
     <title>造成 REvil 勒贖攻擊全球 1,500 家企業的 0-day 漏洞，將獲 Kaseya 原廠修補</title>
-    <link>https://Chico890921.github.io/loveit/posts/461/</link>
+    <link>https://Chico890921.github.io/posts/461/</link>
     <pubDate>Sun, 11 Jul 2021 06:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/461/</guid>
+    <guid>https://Chico890921.github.io/posts/461/</guid>
     <description><![CDATA[七月初由駭侵勒贖團體 REvil 針對 Kaseya VSA 伺服器發動的全球性勒贖攻擊活動，所使用的 0-day 資安漏洞，即將在近日由 Kaseya 推出修補程式予以修補。]]></description>
 </item><item>
     <title>全球逾千家企業遭REvil勒索軟體攻擊，建議落實資安防護</title>
-    <link>https://Chico890921.github.io/loveit/posts/458/</link>
+    <link>https://Chico890921.github.io/posts/458/</link>
     <pubDate>Sun, 11 Jul 2021 03:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/458/</guid>
+    <guid>https://Chico890921.github.io/posts/458/</guid>
     <description><![CDATA[REvil勒索軟體攻擊對象涵蓋全球各大領域產業，影響逾千家企業，台灣多家大型企業也曾受駭，建議企業落實資安防護措施，提升員工資安意識，以免遭勒索軟體攻擊而造成損失。]]></description>
 </item><item>
     <title>勒索軟體 REvil 盯上 Linux 平臺</title>
-    <link>https://Chico890921.github.io/loveit/posts/442/</link>
+    <link>https://Chico890921.github.io/posts/442/</link>
     <pubDate>Sat, 03 Jul 2021 10:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/442/</guid>
+    <guid>https://Chico890921.github.io/posts/442/</guid>
     <description><![CDATA[不只是REvil，包括Babuk、RansomExx/Defray、Mespinoza等勒索軟體，也都發展出鎖定VMware ESXi虛擬機器的Linux加密工具]]></description>
 </item></channel>
 </rss>

@@ -1,78 +1,78 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>惡意程式 - Tag - 涼涼</title>
-        <link>https://Chico890921.github.io/loveit/tags/%E6%83%A1%E6%84%8F%E7%A8%8B%E5%BC%8F/</link>
+        <link>https://Chico890921.github.io/tags/%E6%83%A1%E6%84%8F%E7%A8%8B%E5%BC%8F/</link>
         <description>惡意程式 - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/%E6%83%A1%E6%84%8F%E7%A8%8B%E5%BC%8F/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 03 Jul 2021 09:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E6%83%A1%E6%84%8F%E7%A8%8B%E5%BC%8F/" rel="self" type="application/rss+xml" /><item>
     <title>駭客組織 Gelsemium 藉由 NoxPlayer（夜神模擬器）的更新機制來植入惡意程式，受害者包含臺灣</title>
-    <link>https://Chico890921.github.io/loveit/posts/441/</link>
+    <link>https://Chico890921.github.io/posts/441/</link>
     <pubDate>Sat, 03 Jul 2021 09:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/441/</guid>
+    <guid>https://Chico890921.github.io/posts/441/</guid>
     <description><![CDATA[資安業者 ESET 在 2/1 指出，他們發現知名 Android 遊戲模擬器 NoxPlayer（夜神模擬器）的更新機制遭到駭客危害，使得駭客得以藉由 NoxPlayer 用戶更新時，植入惡意程式，且受害者主要位於臺灣、香港與斯里蘭卡。]]></description>
 </item><item>
     <title>玩遊戲時打不贏你就干擾你直到我獲勝，以驅動程式型態存在的惡意蠕蟲 Netfilter</title>
-    <link>https://Chico890921.github.io/loveit/posts/434/</link>
+    <link>https://Chico890921.github.io/posts/434/</link>
     <pubDate>Sat, 03 Jul 2021 02:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/434/</guid>
+    <guid>https://Chico890921.github.io/posts/434/</guid>
     <description><![CDATA[惡意程式竟然內有微軟的簽章，而讓微軟的軟體開發供應鏈亮起紅燈！防毒業者G-Data揭露名為Netfilter的蠕蟲程式，內含微軟簽章並得到微軟的證實]]></description>
 </item><item>
     <title>中國駭客開發Windows後門程式，攻擊東南亞國家政府</title>
-    <link>https://Chico890921.github.io/loveit/posts/352/</link>
+    <link>https://Chico890921.github.io/posts/352/</link>
     <pubDate>Sat, 05 Jun 2021 01:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/352/</guid>
+    <guid>https://Chico890921.github.io/posts/352/</guid>
     <description><![CDATA[Checkpoint發現名為SharpPanda的中國APT駭客組織，長期針對東南亞地區的政府組織發動網釣攻擊，以趁機植入Windows後門程式竊取情資]]></description>
 </item><item>
     <title>刑事局資安鑑識實驗室全球首創：將惡意程式分析流程標準化並取得ISO國際認證</title>
-    <link>https://Chico890921.github.io/loveit/posts/349/</link>
+    <link>https://Chico890921.github.io/posts/349/</link>
     <pubDate>Thu, 03 Jun 2021 08:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/349/</guid>
+    <guid>https://Chico890921.github.io/posts/349/</guid>
     <description><![CDATA[刑事局花一年半時間，將平時累積惡意程式分析經驗，找出一套標準化流程並取得國際認證，並將這個ISO 17025「Windows程式行為分析」認證，進一步推廣給其他對資安鑑識和惡意程式分析有興趣的資安實驗室]]></description>
 </item><item>
     <title>蘋果坦承 Mac 存在惡意程式比 iPhone 多 40 倍!</title>
-    <link>https://Chico890921.github.io/loveit/posts/348/</link>
+    <link>https://Chico890921.github.io/posts/348/</link>
     <pubDate>Thu, 03 Jun 2021 07:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/348/</guid>
+    <guid>https://Chico890921.github.io/posts/348/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>打造你的 AI 資安鑑識專家：惡意程式分析之特徵萃取研究篇</title>
-    <link>https://Chico890921.github.io/loveit/posts/174/</link>
+    <link>https://Chico890921.github.io/posts/174/</link>
     <pubDate>Fri, 30 Apr 2021 10:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/174/</guid>
+    <guid>https://Chico890921.github.io/posts/174/</guid>
     <description><![CDATA[模型能力的上限取決於資料前處理與特徵萃取的品質。本篇將使用 Kaggle 於 2015 年舉辦的競賽資料，闡述惡意程式分析的常用模式 ─ 統計值、自然語言分析與資料視覺化。]]></description>
 </item><item>
     <title>臺灣首套協助資安鑑識惡意程式分析工具出爐</title>
-    <link>https://Chico890921.github.io/loveit/posts/173/</link>
+    <link>https://Chico890921.github.io/posts/173/</link>
     <pubDate>Fri, 30 Apr 2021 09:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/173/</guid>
+    <guid>https://Chico890921.github.io/posts/173/</guid>
     <description><![CDATA[是針對資安鑑識人員推出的惡意程式分析工具，會監控掃描所有軟體執行中的行為，並以入侵行為的模式，作為惡意程式判定的基準。]]></description>
 </item><item>
     <title>惡意程式檢測</title>
-    <link>https://Chico890921.github.io/loveit/posts/172/</link>
+    <link>https://Chico890921.github.io/posts/172/</link>
     <pubDate>Fri, 30 Apr 2021 08:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/172/</guid>
+    <guid>https://Chico890921.github.io/posts/172/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>駭客是如何製作無法偵測的惡意軟體和病毒</title>
-    <link>https://Chico890921.github.io/loveit/posts/171/</link>
+    <link>https://Chico890921.github.io/posts/171/</link>
     <pubDate>Fri, 30 Apr 2021 07:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/171/</guid>
+    <guid>https://Chico890921.github.io/posts/171/</guid>
     <description><![CDATA[介紹駭客如何繞過大多數防毒軟體，製造無法偵測的惡意軟體和病毒]]></description>
 </item><item>
     <title>無檔案惡意程式(Fileless Malware)五種運作方式</title>
-    <link>https://Chico890921.github.io/loveit/posts/170/</link>
+    <link>https://Chico890921.github.io/posts/170/</link>
     <pubDate>Fri, 30 Apr 2021 06:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/loveit/posts/170/</guid>
+    <guid>https://Chico890921.github.io/posts/170/</guid>
     <description><![CDATA[無檔案惡意程式早已不是什麼新聞，但目前卻有 日益增加的趨勢。事實上，根據報導，在針對企業的攻擊得逞案例當中，有 77% 都是使用無檔案惡意程式。這類惡意程式不像傳統惡意程式那樣容易被發現，而且會利用各種技巧來長期躲藏在系統內部，因此隨時可能對企業流程或營運基礎架構造成危害。]]></description>
 </item></channel>
 </rss>
