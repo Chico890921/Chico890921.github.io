@@ -1,78 +1,78 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>漏洞 - Tag - 涼涼</title>
-        <link>https://Chico890921.github.io/tags/%E6%BC%8F%E6%B4%9E/</link>
+        <link>https://Chico890921.github.io/loveit/tags/%E6%BC%8F%E6%B4%9E/</link>
         <description>漏洞 - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Jun 2021 04:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/%E6%BC%8F%E6%B4%9E/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 17 Jun 2021 04:00:00 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/%E6%BC%8F%E6%B4%9E/" rel="self" type="application/rss+xml" /><item>
     <title>Google 修復 Android 嚴重漏洞，可導致駭侵者遠端執行任意程式碼</title>
-    <link>https://Chico890921.github.io/posts/412/</link>
+    <link>https://Chico890921.github.io/loveit/posts/412/</link>
     <pubDate>Thu, 17 Jun 2021 04:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/412/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/412/</guid>
     <description><![CDATA[Google 近期在 Android 更新版本中修復多個資安漏洞，其中包含一個可讓駭侵者遠端執行任意程式碼的嚴重漏洞；廣大 Android 裝置用戶應隨時注意並更新系統。]]></description>
 </item><item>
     <title>Google Chrome 緊急修補已遭大規模濫用的 0-day 資安漏洞</title>
-    <link>https://Chico890921.github.io/posts/411/</link>
+    <link>https://Chico890921.github.io/loveit/posts/411/</link>
     <pubDate>Thu, 17 Jun 2021 03:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/411/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/411/</guid>
     <description><![CDATA[Google 緊急推出 Chrome 資安修補新版，修復 14 個資安漏洞，其中包括一個已遭大規模濫用的 0-day 漏洞；Google Chrome 用戶應立即更新瀏覽器至最新版本。]]></description>
 </item><item>
     <title>微軟六月資安修補包，更新 50 個資安漏洞，其中含 6 個 0-day 漏洞</title>
-    <link>https://Chico890921.github.io/posts/410/</link>
+    <link>https://Chico890921.github.io/loveit/posts/410/</link>
     <pubDate>Thu, 17 Jun 2021 02:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/410/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/410/</guid>
     <description><![CDATA[微軟近期發布的 2021 年 6 月資安修補包，一共修復微軟各項産品中多達 50 個資安漏洞，其中更含有 6 個 0-day 漏洞，微軟用戶應立即套用更新。 ]]></description>
 </item><item>
     <title>勒索軟體Hello/WickrMe瞄準微軟SharePoint伺服器漏洞發動攻擊</title>
-    <link>https://Chico890921.github.io/posts/400/</link>
+    <link>https://Chico890921.github.io/loveit/posts/400/</link>
     <pubDate>Fri, 11 Jun 2021 16:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/400/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/400/</guid>
     <description><![CDATA[名為Hello/WickrMe的勒索軟體，專攻未修補CVE-2019-0604安全漏洞的SharePoint伺服器，CVE-2019-0604也被美國政府列為近年來，最常遭到駭客開採的十大安全漏洞]]></description>
 </item><item>
     <title>微軟在IoT與OT裝置上發現一系列記憶體分配漏洞，可用來執行惡意程式或造成系統崩潰</title>
-    <link>https://Chico890921.github.io/posts/399/</link>
+    <link>https://Chico890921.github.io/loveit/posts/399/</link>
     <pubDate>Fri, 11 Jun 2021 15:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/399/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/399/</guid>
     <description><![CDATA[微軟引述研究解釋，作為物聯網裝置與嵌入式軟體的一部分，多年來的記憶體分配實作並未執行適當的輸入驗證，而這便讓駭客有機可趁]]></description>
 </item><item>
     <title>SonicWall SSL VPN設備漏洞被用於勒索軟體攻擊</title>
-    <link>https://Chico890921.github.io/posts/398/</link>
+    <link>https://Chico890921.github.io/loveit/posts/398/</link>
     <pubDate>Fri, 11 Jun 2021 14:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/398/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/398/</guid>
     <description><![CDATA[又是SonicWall的設備漏洞被運用於攻擊行動！FireEye揭露約自2021年1月發動的Fivehands勒索軟體攻擊，濫用SonicWall的SSL VPN設備漏洞，鎖定歐洲和北美的組織下手，而背後的攻擊者先前曾運用Ragnar Locker、HelloKitty等勒索軟體]]></description>
 </item><item>
     <title>所有Wi-Fi裝置皆存在FragAttacks漏洞，可被駭客用來竊取個人資訊和攻擊裝置(含影片示範)</title>
-    <link>https://Chico890921.github.io/posts/395/</link>
+    <link>https://Chico890921.github.io/loveit/posts/395/</link>
     <pubDate>Fri, 11 Jun 2021 11:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/395/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/395/</guid>
     <description><![CDATA[研究人員發現，所有的Wi-Fi裝置皆至少存在一個FragAttacks系列漏洞，而絕大多數的裝置則受多個漏洞影響]]></description>
 </item><item>
     <title>網路流傳 5 步驟解鎖他人 iPhone 的實測結果</title>
-    <link>https://Chico890921.github.io/posts/362/</link>
+    <link>https://Chico890921.github.io/loveit/posts/362/</link>
     <pubDate>Tue, 08 Jun 2021 02:08:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/362/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/362/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>所有Wi-Fi裝置皆存在FragAttacks漏洞，可被駭客用來竊取個人資訊和攻擊裝置(含影片示範)</title>
-    <link>https://Chico890921.github.io/posts/360/</link>
+    <link>https://Chico890921.github.io/loveit/posts/360/</link>
     <pubDate>Tue, 08 Jun 2021 02:06:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/360/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/360/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>中國駭客盛典「天府杯」陰謀：提供iPhone 漏洞來秘密監控</title>
-    <link>https://Chico890921.github.io/posts/347/</link>
+    <link>https://Chico890921.github.io/loveit/posts/347/</link>
     <pubDate>Thu, 03 Jun 2021 06:00:15 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/347/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/347/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

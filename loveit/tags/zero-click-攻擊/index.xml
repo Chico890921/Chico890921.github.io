@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>zero-click 攻擊 - Tag - 涼涼</title>
-        <link>https://Chico890921.github.io/tags/zero-click-%E6%94%BB%E6%93%8A/</link>
+        <link>https://Chico890921.github.io/loveit/tags/zero-click-%E6%94%BB%E6%93%8A/</link>
         <description>zero-click 攻擊 - Tag - 涼涼</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-tw</language><managingEditor>191147343satan@gmail.com (chico)</managingEditor>
-            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Feb 2021 11:55:35 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/tags/zero-click-%E6%94%BB%E6%93%8A/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>191147343satan@gmail.com (chico)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 07 Feb 2021 11:55:35 &#43;0800</lastBuildDate><atom:link href="https://Chico890921.github.io/loveit/tags/zero-click-%E6%94%BB%E6%93%8A/" rel="self" type="application/rss+xml" /><item>
     <title>Apple 在 iOS 更新中，針對 iMessage 免操作攻擊加強防禦機制</title>
-    <link>https://Chico890921.github.io/posts/44/</link>
+    <link>https://Chico890921.github.io/loveit/posts/44/</link>
     <pubDate>Sun, 07 Feb 2021 11:55:35 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://Chico890921.github.io/posts/44/</guid>
+    <guid>https://Chico890921.github.io/loveit/posts/44/</guid>
     <description><![CDATA[資安專家發現 Apple 於日前推出的 iOS 更新中，針對 iMessage 的「免操作攻擊」加強了防禦機制。]]></description>
 </item></channel>
 </rss>
