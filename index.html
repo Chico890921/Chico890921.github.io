@@ -10,18 +10,35 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>  
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
+        <header id="nav_header">
+                    <nav class="header_time">
+                        <div class="nav-right">
+                            <ul class="datetime">
+                                <li class="date">
+                                    <i class="far fa-calendar"></i>&nbsp;
+                                    <span id="current_date"></span>
+                                </li>
+                                <li class="time">
+                                    <i class="far fa-clock"></i>&nbsp;
+                                    <span id="current_time"></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
 			<div id="wrapper">
 
 				<!-- Header -->
+                
+                
 					<header id="header">
 						<div class="logo">
 							<span class="icon solid fa-paw"></span>
-                            <!--<span class="image main"><img src="images/download20220303015549.png" alt="" /></span>-->
 						</div>
 						<div class="content">
 							<div class="inner">
@@ -29,6 +46,7 @@
                                 
 							</div>
 						</div>
+                        
 						<nav>
 							<ul>
                                 <li><a href="#work"><b>分站</b></a></li>
@@ -37,6 +55,7 @@
 								<!--<li><a href="#contact">Contact</a></li>
 								<li><a href="#elements">Elements</a></li>-->
 							</ul>
+                            
 						</nav>
 					</header>
 
@@ -349,6 +368,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+            <script src="assets/js/header_time.js"></script>
 
 	</body>
 </html>
