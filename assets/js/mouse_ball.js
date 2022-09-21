@@ -15,8 +15,8 @@ document.onmousemove = function (e) {
 $("a").mouseover(function() {
     $(".ball").height('75px');
     $(".ball").width('75px');
-})
+});
 $("a").mouseout(function() {
     $(".ball").height('30px');
     $(".ball").width('30px');
-})
+});

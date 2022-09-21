@@ -112,13 +112,16 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 16pt;
+		font-size: 24pt;
 	}
+    p {
+        font-size: 24px;
+    }
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 16pt;
 			}
 
 		}
@@ -126,7 +129,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 11pt;
+				font-size: 15pt;
 			}
 
 		}
@@ -134,14 +137,24 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 10pt;
+				font-size: 14pt;
 			}
 
 		}
-
-	body, input, select, textarea {
+    
+    @font-face {
+        font-family: "975MaruSC";
+        src: url(https://cdn.jsdelivr.net/gh/Chico890921/CDN/975MaruSC-Regular.ttf);
+    }
+    @font-face {
+        font-family: "Makinas-4-Square";
+        src: url(https://cdn.jsdelivr.net/gh/Chico890921/CDN/Makinas-4-Square.otf);
+        unicode-range: U+3040-30FF;
+    }
+    
+	body, input, select, textarea, span {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Makinas-4-Square", '975MaruSC', "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -211,19 +224,19 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.3rem;
 	}
 
 	h4 {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 
 	h5 {
-		font-size: 0.7rem;
+		font-size: 0.9rem;
 	}
 
 	h6 {
-		font-size: 0.6rem;
+		font-size: 0.8rem;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1570,7 +1583,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 60rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1693,9 +1706,16 @@ input, select, textarea {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: darkturquoise;
+    background-color: #8FBCBB;
     display: none;
     position: absolute;        
     left: 0;
     top: 0;    
+}
+
+
+
+::selection {
+    background: #FFE8A5;
+    color: #403a29;
 }
